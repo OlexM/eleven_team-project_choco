@@ -5,9 +5,10 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./root.css');
+@import url('./general.css');
 @import url('./header.css');
 @import url('./testing.css');
-@import url('./modal-BUY-NOW.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
