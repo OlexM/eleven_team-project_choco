@@ -1,0 +1,39 @@
+    .page-header {
+        padding-top: 20px;
+            padding-bottom: 14px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: var(--body-background-color);
+    }
+    
+    .header-container {
+        display: flex;
+        align-items: center;
+    } 
+
+
+    .menu-btn {
+    background-color: transparent;
+    border: none;
+    }
+
+    .navigation {
+        margin-right: 138px;
+    }
+
+
+    .link {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--text-color-light);
+            font-family: 'Montserrat';
+            font-style: italic;
+            font-size: 14px;
+            letter-spacing: -0.03em;
+    }
+
+    .icon-header-choco {
+        margin-left: 4px;
+    }
