@@ -101,7 +101,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 13px; /*должно быть 14*/
         line-height: 1.2;
         text-align: center;
         color:var(--bg-color-light);
