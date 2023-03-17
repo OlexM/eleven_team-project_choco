@@ -13,7 +13,7 @@
     />
     
     <script type="module" crossorigin src="/eleven_team-project_choco/assets/index-2ec3eec4.js"></script>
-    <link rel="stylesheet" href="/eleven_team-project_choco/assets/index-bae37899.css">
+    <link rel="stylesheet" href="/eleven_team-project_choco/assets/index-7bb3e9ae.css">
   </head>
   <body>
 
@@ -113,15 +113,30 @@
     </div>
 </div>
     <section class="hero">
-  <div class="container">
+  <div class="hero-container">
     <h1 class="visually-hidden">Chocolate</h1>
     <h2 class="hero_title">
       Treat yourself or a loved one to our finest ingredients for a moment of
       pure delight!
     </h2>
-    <button class="button"></button>
-    <button></button>
-    <p>scroll down</p>
+    <div class="hero-buttons">
+      <div class="hero-div">
+        <button type="button" class="hero-button-buy">
+          <span class="hero-button-text">Buy now</span>
+        </button>
+        <a href="#" class="hero-button-how">
+          <span class="hero-button-text">How it&#8217;s made</span>
+        </a>
+      </div>
+      <div class="hero-scroll">
+        <p class="hero-text">scroll down</p>
+        <a href="#footer" class="hero-button-scroll">
+          <svg class="hero-check" width="22" height="22">
+            <use href="../img/symbol-defs.svg#icon-check_22x22"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -230,26 +245,31 @@
   </div>
 </footer>
 
-    <div class=" backdrop">
-    <div class="modal-buy-now">
-        <button type="button" class="btn-close-open">
-            <svg width="24" height="24">
-                <use href="../img/symbol-defs.svg#icon-close"></use>
-            </svg>
-        </button>
-        <h1 class="header-modal-buy"><span class="acсent">BUY</span> NOW</h1>
-        <ul class="list-chocolate-selection">
-            <li>
-                <div class="cont-chocolate-selection">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi doloremque quia asperiores quaerat molestias, saepe mollitia! Repudiandae dolor dolorum eos vitae sed ullam, eum sint officia maxime laudantium veniam atque?</div>
-            </li>
-            <!-- <li>
+    <div class="backdrop">
+  <div class="modal-buy-now">
+    <button type="button" class="btn-close-open">
+      <svg width="24" height="24">
+        <use href="../img/symbol-defs.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h1 class="header-modal-buy"><span class="acсent">BUY</span> NOW</h1>
+    <ul class="list-chocolate-selection">
+      <li>
+        <div class="cont-chocolate-selection">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+          doloremque quia asperiores quaerat molestias, saepe mollitia!
+          Repudiandae dolor dolorum eos vitae sed ullam, eum sint officia maxime
+          laudantium veniam atque?
+        </div>
+      </li>
+      <!-- <li>
                 <div class="cont-chocolate-selection"></div>
             </li>
             <li>
                 <div class="cont-chocolate-selection"></div>
             </li> -->
-        </ul>
-    </div>
+    </ul>
+  </div>
 </div>
 
     <section class="topsellers-section section container">
