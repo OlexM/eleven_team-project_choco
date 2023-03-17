@@ -147,7 +147,6 @@
     width: 100%;
     height: 100%;
     stroke: var(--white);
-    stroke-width: 2.1818px;
 }
 
 @media screen and (min-width:768px) {

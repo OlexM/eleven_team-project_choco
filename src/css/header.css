@@ -6,6 +6,13 @@
     margin-top: 20px;
     margin-bottom: 14px;
 }
+.logo-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
 
 @media screen and (min-width:768px) {
     .header-container {
@@ -18,25 +25,9 @@
     .header-container {
         margin-bottom: 32px;
     }
-}
-
-.header-navigation {
-    display: flex;
-    gap: 188px;
-}
-
-.logo-desktop {
-    display: flex;
-    gap: 6px;
-    align-items: center;
-}
 
 .logo-text {
-    font-weight: 700;
     font-size: 18px;
-    line-height: 1.11;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
 }
 
 .logo-text-part-one {
@@ -82,7 +73,6 @@
 
 .social-icon-desktop-tablet {
     stroke: var(--black);
-    stroke-width: 2.666px;
 }
 
 .social-icon-desktop-tablet:hover,
