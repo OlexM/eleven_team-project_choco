@@ -1,4 +1,4 @@
-.backdrop {
+ .backdrop {
     position: fixed;
     top: 0;
     width: 100%;
@@ -56,7 +56,6 @@
     background-color: blue;
     border-radius: 15px;
 }
-
 
 
 
