@@ -7,6 +7,7 @@
     margin-bottom: 14px;
 }
 
+
 @media screen and (min-width:768px) {
     .header-container {
         margin-top: 24px;
@@ -82,7 +83,6 @@
 
 .social-icon-desktop-tablet {
     stroke: var(--black);
-    stroke-width: 2.666px;
 }
 
 .social-icon-desktop-tablet:hover,
