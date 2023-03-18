@@ -139,7 +139,7 @@
     row-gap: 14px;
 
 }
-textarea {
+.comment-placeholder {
     resize: none;
     padding: 14px 18px;
     font-weight: 400;
@@ -151,7 +151,7 @@ textarea {
     border: 1.5px solid rgba(17, 17, 17, 0.05);
 }
 
-textarea::placeholder {
+.comment-placeholder::placeholder {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
