@@ -1,35 +1,3 @@
-:root {
-  /*-----Body-----*/
-  --body-background-color: #fafafa;
-  /*----Font color----*/
-  --text-color-light: #111111;
-  --text-color-dark: #ffffff;
-  --secondary-text-color-dark: rgba(255, 255, 255, 0.7);
-  --secondary-text-color-light: rgba(17, 17, 17, 0.7);
-  /*-----Section Background color------*/
-  --bg-color-light: #ffffff;
-  --bg-color-dark: #1e1823;
-  /*---Colors---*/
-  --black: #111111;
-  --blackcurrant: #1e1823;
-  --orange: #fd9222;
-  --white: #fafafa;
-  --pink: #fcf1e0;
-  /*----Icons----*/
-  --icon-color-normal-light: #111111;
-  --icon-color-normal-dark: #ffffff;
-  --icon-color-active: #fd9222;
-  --close-icon: linear-gradient(181.96deg, #f16529 1.64%, #d44528 98.35%);
-  /*----Button Light ----*/
-  --button-bg-normal-light: #fd9222;
-  --button-bg-active-light: #fcf1e0;
-  --button-font-normal-light: #ffffff;
-  --button-font-active-light: #fd9222;
-  /*-----Button Dark -----*/
-  --button-border-normal-dark: #ffffff;
-  --button-border-active-dark: #fd9222;
-}
-
 @media screen and (min-width: 375px) {
   .hero-container {
     width: 295px;
@@ -40,7 +8,7 @@
     max-width: 335px;
     height: 620px;
     margin: 0 auto;
-    background-image: url(./img/hero/mobile/hero.jpg);
+    background-image: url(../img/hero/mobile/hero.jpg);
     border-radius: 30px;
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +20,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(./img/hero/mobile/hero_2x.jpg);
+      background-image: url(../img/hero/mobile/hero_2x.jpg);
     }
   }
   .hero_title {
@@ -157,14 +125,14 @@
   .hero {
     max-width: 704px;
     height: 890px;
-    background-image: url(./img/hero/tablet/hero.jpg);
+    background-image: url(../img/hero/tablet/hero.jpg);
     padding: 671px 40px 40px 40px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(./img/hero/tablet/hero_2x.jpg);
+      background-image: url(../img/hero/tablet/hero_2x.jpg);
     }
   }
   .hero_title {
@@ -204,7 +172,7 @@
   .hero {
     max-width: 1136px;
     height: 620px;
-    background-image: url(./img/hero/desktop/hero.jpg);
+    background-image: url(../img/hero/desktop/hero.jpg);
     padding: 381px 40px 40px 40px;
     background-color: var(--button-bg-active-light);
   }
@@ -212,7 +180,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(./img/hero/desktop/hero_2x.jpg);
+      background-image: url(../img/hero/desktop/hero_2x.jpg);
     }
   }
 }
