@@ -3,7 +3,6 @@
     top: 0;
     width: 100%;
     height: 100%;
-
     transition: opacity 300ms linear, visibility 300ms linear;
 }
 
@@ -18,7 +17,7 @@
     transform: translate(-50%, -50%) ;
     padding: 20px;
     transition: transform 0.5s linear;
-   
+   visibility: hidden;
 }
 
 .btn-close-open {
