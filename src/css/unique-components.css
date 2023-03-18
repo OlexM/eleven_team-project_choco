@@ -7,7 +7,7 @@
 }
 .unique {
     width: 335px;
-    height: 204px;
+    /* height: 204px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -32,6 +32,11 @@
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: var(--black);
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
 }
 
 .unique-text {
@@ -39,12 +44,12 @@
     text-align: center;
     letter-spacing: -0.02em;
     padding-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
     color:var(--black);
 }
 
-.components-list {
-    
-}
+
 
 .milk-choc-block {
     width: 335px;
@@ -110,7 +115,6 @@
     width: 335px;
     height: 270px;
     padding: 28px;
-
 }
 
 .title-components {
@@ -186,8 +190,73 @@
     .unique-components {
         padding-top: 100px;
     }
+    .unique {
+        width: 704px;
+    }
     .unique-title {
-        height: 56px;
+        width: 411px;
+        font-size: 24px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        margin-bottom: 28px;
+    }
+    .unique-text {
+        width: 486px;  
+    }
+    .box-overlay {
+        margin-bottom: 0;
+    }
+    .components-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+ }
+@media screen and (min-width: 1200px) {
+    .unique-components {
+        padding-top: 128px;
+    }
+    .unique {
+        width: 1136px;
+    }
+    .unique-text {
+        padding-bottom: 50px;
+    }
+    .foto-components {
+        width: 270px;
+        height: 270px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .milk-choc-block {
+        width: 270px;
+        height: 270px;
+    }
+    .milk-block {
+        width: 270px;
+        height: 270px;
+    }
+    .nuts-block {
+        width: 270px;
+        height: 270px;
+    }
+    
+    .chocolate-block {
+        width: 270px;
+        height: 270px;
+    }
+    .components-cards {
+        width: 270px;
+        height: 270px;
+        padding: 28px;
+    }
+    .cards-text {
+        width: 214px;
+        height: 146px;
+        margin-top: 14px;
+        overflow: auto;
     }
 
- }
+}
