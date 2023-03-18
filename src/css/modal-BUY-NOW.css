@@ -139,7 +139,7 @@
     row-gap: 14px;
 
 }
-textarea {
+.comment-placeholder {
     resize: none;
     padding: 14px 18px;
     font-weight: 400;
