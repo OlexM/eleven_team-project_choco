@@ -1,45 +1,20 @@
-:root {
-    /*-----Body-----*/
-    --body-background-color: #FAFAFA;
-    /*----Font color----*/
-    --text-color-light: #111111;
-    --text-color-dark: #FFFFFF;
-    --secondary-text-color-dark: rgba(255, 255, 255, 0.7);
-    --secondary-text-color-light: rgba(17, 17, 17, 0.7);
-    /*-----Section Background color------*/
-    --bg-color-light: #FFFFFF;
-    --bg-color-dark: #1E1823;
-    /*---Colors---*/
-    --black: #111111;
-    --blackcurrant: #1E1823;
-    --orange: #FD9222;
-    --white: #FAFAFA;
-    --pink: #FCF1E0;
-    /*----Icons----*/
-    --icon-color-normal-light: #111111;
-    --icon-color-normal-dark: #FFFFFF;
-    --icon-color-active: #FD9222;
-    --close-icon: linear-gradient(181.96deg, #f16529 1.64%, #d44528 98.35%);
-    /*----Button Light ----*/
-    --button-bg-normal-light: #FD9222;
-    --button-bg-active-light: #FCF1E0;
-    --button-font-normal-light: #FFFFFF;
-    --button-font-active-light: #FD9222;
-    /*-----Button Dark -----*/
-    --button-border-normal-dark: #FFFFFF;
-    --button-border-active-dark: #FD9222;
-}
 
 
 @media screen and (min-width: 375px) {
+    .hero-main-container{
+        max-width: 375px;
+        padding: 0 20px 72px 20px;
+        margin: 0 auto;
+    }
     .hero-container {
         width: 295px;
         margin-inline: auto;
         padding: 0;
     }
     .hero{
-        max-width:335px;
-        height:620px;
+        max-width:100%;
+        height: auto;
+        /*height:620px;*/
         margin: 0 auto;
         background-image:url(../img/hero/mobile/hero.jpg);
         border-radius: 30px;
@@ -125,7 +100,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 11px; /*должен быть 12*/
         line-height: 1.17;
         color:var(--bg-color-light);
     }
@@ -152,13 +127,15 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+    .hero-main-container{
+        max-width: 768px;
+        padding: 0 32px 50px 32px;
+    }
     .hero-container {
         width: 624px;
     }
     .hero{
-        max-width:704px;
-        height:890px;
+        /*height:890px;*/
         background-image: url(../img/hero/tablet/hero.jpg);
         padding: 671px 40px 40px 40px;
     }
@@ -200,13 +177,15 @@
 }
 
 @media screen and (min-width: 1200px) {
-   
+    .hero-main-container{
+        max-width: 1200px;
+        padding: 0 32px 72px 32px;
+    }   
     .hero-container {
         width: 1056px;
     }
     .hero{
-        max-width:1136px;
-        height:620px;
+        /*height:620px;*/
         background-image: url(../img/hero/desktop/hero.jpg);
         padding: 381px 40px 40px 40px;
         background-color:var(--button-bg-active-light);
