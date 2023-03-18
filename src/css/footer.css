@@ -1,3 +1,155 @@
-.footer {
+.section.footer {
   display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  background-color: var(--bg-color-dark);
+}
+
+.footer-top {
+  margin-bottom: 32px;
+}
+
+.footer-slogan {
+  margin-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+
+.footer-slogan-choco {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--orange);
+}
+
+.footer-contacts-mod {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: var(--white);
+}
+
+.footer-contacts > p {
+  margin-bottom: 14px;
+}
+
+.footer-contacts-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-contacts-link {
+  letter-spacing: -0.02em;
+  cursor: pointer;
+}
+
+.footer-social {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-social-link {
+  cursor: pointer;
+}
+
+.footer-social-icon {
+  stroke: var(--white);
+  fill: var(--bg-color-dark);
+
+  transition: fill var(--timing-function);
+}
+
+.footer-social-icon:is(:hover, :focus) {
+  stroke: var(--orange);
+  fill: var(--bg-color-dark);
+}
+
+.footer-anchor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer-line-container::after {
+  display: block;
+  content: '';
+  margin-bottom: 32px;
+  width: 100%;
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-anchor-link {
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .section.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 54px;
+  }
+
+  .footer-slogan {
+    margin-bottom: 0;
+    width: 300px;
+    font-size: 28px;
+    line-height: 1.21;
+  }
+
+  .footer-slogan-choco {
+    font-size: 28px;
+    line-height: 1.21;
+  }
+
+  .footer-contacts-mod {
+    gap: 50px;
+    margin-bottom: 0;
+  }
+
+  .footer-contacts {
+    margin-bottom: 0;
+  }
+
+  .footer-line-container::after {
+    margin-bottom: 24px;
+  }
+
+  .footer-anchor-list {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-top {
+    margin-bottom: 62px;
+  }
+  
+  .footer-contacts-mod {
+    gap: 63px;
+  }
+
+  .footer-social {
+    gap: 18px;
+  }
 }
