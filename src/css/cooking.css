@@ -32,9 +32,34 @@
   color: var(--orange);
 }
 
-.cooking-media {
+.cooking-video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 335px;
   width: 100%;
+  height: 500px;
+  background: url(../img/cooking/play.svg), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) ,url(../img/cooking/mobile/cooking.jpg);
+  background-repeat: no-repeat;
+  background-size: 35px, cover, cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.cooking-video:hover {
+  cursor: pointer;
+}
+
+.cooking-media {
+  position: absolute;
+  height: 100%;
+  max-width: 335px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 15px;
 }
 
 .cooking-recipe {
