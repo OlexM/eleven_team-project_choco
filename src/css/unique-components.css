@@ -98,8 +98,8 @@
 }
 
 
-.components-item {
-    
+.components-name {
+    padding-top: 25px;
 }
 
 .components-title {
@@ -225,8 +225,8 @@
         padding-bottom: 50px;
     }
     .foto-components {
-        width: 270px;
-        height: 270px;
+        width: 206px;
+        height: 160px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -247,6 +247,9 @@
         width: 270px;
         height: 270px;
     }
+    .components-name {
+        padding-top: 36px;
+    }
     .components-cards {
         width: 270px;
         height: 270px;
@@ -258,5 +261,8 @@
         margin-top: 14px;
         overflow: auto;
     }
-
+    .components-list {
+        flex-wrap: nowrap;
+        gap: 19px;
+        }
 }
