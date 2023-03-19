@@ -46,6 +46,7 @@ line-height: 1.22px;
   
   color: #FFFFFF;
 }
+
 .benefits-text {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.7);
@@ -90,12 +91,24 @@ line-height: 1.22px;
   }
   .benefits-list {
     flex-wrap:nowrap;
+    display: flex;
    
     padding: 50px 50px;
     gap: 70px;
-    align-content: center;
-  
-    
+    align-content: center; 
+  }
+  .benefits-box {
+   align-items: center;
     
   }
+ 
+.benefits-box ::after {
+  content:"" ;
+  width: 124px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: rotate(90deg); 
+display:block ;
+  
+}
+  
 }
