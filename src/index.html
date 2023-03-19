@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/public/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+    <title>Simply Chocolate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Loads the specified .html file -->
+    <load src="partials/header.html" />
+    <load src="partials/hero.html" />
+    <load src="partials/benefits.html" />
+    <load src="partials/unique-components.html" />
+    <load src="partials/cooking.html" />
+    <load src="partials/topsellers.html" />
+    <load src="partials/reviews.html" />
+    <load src="partials/modal-BUY-NOW.html" />
+    <load src="partials/footer.html" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/src/public/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Simply Chocolate</title>
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-
-<body>
-
-  <!-- Loads the specified .html file -->
-  <load src="partials/header.html" />
-  <load src="partials/hero.html" />
-  <load src="partials/benefits.html" />
-  <load src="partials/footer.html" />
-  <load src="partials/modal-BUY-NOW.html" />
-
-
-  <script type="module" src="./mobile-menu.js"></script>
-</body>
-
+    <script type="module" src="./mobile-menu.js"></script>
+    <script type="module" src="./play.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module" src="./reviews-swiper.js"></script>
+  </body>
 </html>

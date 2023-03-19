@@ -1,0 +1,128 @@
+.topsellers-name {
+  margin-bottom: 32px;
+  text-align: center;
+
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  flex-direction: row;
+  display: flex;
+  gap: 8px;
+}
+.topsellers-center-button {
+  align-items: center;
+}
+.topsellers-list-item {
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.topsellers-list {
+  row-gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.topsellers-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.topsellers-name-first {
+  color: #fd9222;
+}
+.topsellers-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+
+  letter-spacing: -0.02em;
+
+  color: #111111;
+}
+.topsellers-button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+
+  color: #ffffff;
+  width: 120px;
+  height: 41px;
+
+  background: #fd9222;
+  border-radius: 100px;
+  border-width: 0;
+}
+.topsellers-hidden {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .topsellers-list {
+    flex-direction: row;
+    column-gap: 16px;
+  }
+  .topsellers-list-item {
+    width: 344px;
+    row-gap: 32px;
+  }
+  .topsellers-name {
+    font-size: 24px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+  }
+  .topsellers-image {
+    height: 464px;
+  }
+  .topsellers-text {
+    width: 306px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .topsellers-section {
+    position: relative;
+  }
+  .topsellers-center-button {
+    position: absolute;
+    top: 674px;
+    left: 484px;
+  }
+  .topsellers-button {
+    width: 162px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .topsellers-hidden {
+    display: flex;
+  }
+  .topsellers-list-item {
+    width: calc((100% - 16px) / 3);
+  }
+  .topsellers-image {
+    height: 464px;
+  }
+  .topsellers-text {
+    width: 407px;
+  }
+  .topsellers-hidden {
+    display: flex;
+  }
+
+  .topsellers-center-button {
+    align-items: end;
+  }
+  .topsellers-button {
+    width: 162px;
+    height: 50px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
