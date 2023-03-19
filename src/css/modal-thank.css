@@ -1,0 +1,118 @@
+.container{
+    padding-inline: 20px;
+}
+.div-center-btn{
+    padding-top:14px;
+    padding-right: 14px;
+}
+.modal-thank{
+    background-color: var(--orange);
+    border-radius: 15px;
+    width:311px;
+    height:350px;
+    background-image: url(../img/modal-thank/mobile/chocolate-mobile.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button-close-modal{
+    display:block;
+    margin-left: auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:42px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    background-color: #FCF1E0;
+}
+.svg-modal-close{
+stroke: var(--orange);
+}
+.modal-text{
+    display: flex;
+    margin-right: auto;
+    flex-direction: column;
+    padding-left:68px;
+}
+.modal-title{
+    font-family: 'Montserrat';
+    color: #FCF1E0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.modal-paragraph{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 219px;
+    color: #FCF1E0;
+}
+
+/*----------MEDIA--------*/
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 375px;
+        margin-inline: auto;
+    }
+    .modal-thank{
+        max-width:311px;
+        height: 350px;
+    }
+}
+/*--------------------*/
+@media screen and (min-width: 768px) {
+    .section {
+        padding-top: 100px;
+    }
+    .container {
+        width: 768px;
+    }
+    .modal-thank{
+        max-width: 516px;
+        height:414px;
+        background-image: url(../img/modal-thank/tublet/chocolate-tublet.png);
+}
+.div-center-btn{
+    padding-top: 24px;
+    padding-right: 26px;
+}
+.button-close-modal{
+    width:38px;
+    height:38px;
+    margin-bottom: 92px;
+}
+.modal-title{
+    font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+}
+.modal-paragraph{
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+max-width: 309px;
+}
+.modal-text{
+    padding-left:163px;
+}
+}
+/*-------------------*/
+@media screen and (min-width: 1200px) {
+    .section {
+        padding-top: 128px;
+    }
+    .container {
+        width: 1200px;
+    }
+}
