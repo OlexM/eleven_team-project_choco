@@ -11,6 +11,11 @@
     background-repeat: no-repeat;
     background-position: left bottom;
 }
+.is-hidden{
+    opacity:0;
+    visibility:hidden;
+    pointer-events: none;
+  }
 .div-btn{
     padding-top:14px;
     padding-right: 14px;
@@ -55,16 +60,9 @@ max-width: 229px;
 .svg-feedback-close{
     stroke: black;
 }
-.container {
-    padding-inline: 0px;
-}
 /*-------------MEDIA---------------*/
 
 @media screen and (max-width: 767px) {
-    .container {
-        width: 375px;
-        margin-inline: auto;
-    }
     .modal-feedback{
     width:311px;
     }
@@ -73,13 +71,6 @@ max-width: 229px;
 /*------------------------*/
 
 @media screen and (min-width: 768px) {
-    .section {
-        padding-top: 100px;
-    }
-
-    .container {
-        width: 768px;
-    }
     .div-btn{
         padding-top: 24px;
         padding-right: 26px;
@@ -114,11 +105,4 @@ max-width: 229px;
 /*------------------------*/
 
 @media screen and (min-width: 1200px) {
-    .section {
-        padding-top: 128px;
-    }
-
-    .container {
-        width: 1200px;
-    }
 }

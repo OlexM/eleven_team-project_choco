@@ -1,6 +1,9 @@
-.container{
-    padding-inline: 20px;
+.is-hidden{
+    opacity:0;
+    visibility:hidden;
+    pointer-events: none;
 }
+
 .div-center-btn{
     padding-top:14px;
     padding-right: 14px;
@@ -61,10 +64,6 @@ stroke: var(--orange);
 /*----------MEDIA--------*/
 
 @media screen and (max-width: 767px) {
-    .container {
-        width: 375px;
-        margin-inline: auto;
-    }
     .modal-thank{
         max-width:311px;
         height: 350px;
@@ -72,12 +71,6 @@ stroke: var(--orange);
 }
 /*--------------------*/
 @media screen and (min-width: 768px) {
-    .section {
-        padding-top: 100px;
-    }
-    .container {
-        width: 768px;
-    }
     .modal-thank{
         max-width: 516px;
         height:414px;
@@ -109,10 +102,4 @@ max-width: 309px;
 }
 /*-------------------*/
 @media screen and (min-width: 1200px) {
-    .section {
-        padding-top: 128px;
-    }
-    .container {
-        width: 1200px;
-    }
 }
