@@ -7,6 +7,7 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./testing.css');
+@import url('./subscribe.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -14,6 +15,9 @@
   line-height: 24px;
   font-weight: 400;
 
+  --whitecolor : #FFFFFF;
+  --btncolor :#FD9222 ;
+  
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
 
