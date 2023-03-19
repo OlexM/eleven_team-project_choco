@@ -7,14 +7,6 @@
     margin-bottom: 14px;
 }
 
-
-@media screen and (min-width:768px) {
-    .header-container {
-        margin-top: 24px;
-        margin-bottom: 24px;
-    }
-}
-
 @media screen and (min-width:1200px) {
     .header-container {
         margin-bottom: 32px;
@@ -34,7 +26,7 @@
 
 .logo-text {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.11;
     letter-spacing: -0.03em;
     text-transform: uppercase;
@@ -83,6 +75,7 @@
 
 .social-icon-desktop-tablet {
     stroke: var(--black);
+    stroke-width: 2.666px;
 }
 
 .social-icon-desktop-tablet:hover,
@@ -120,4 +113,8 @@
     .btn-mobile-menu-open {
         display: none;
     }
+
+    .logo-text {
+        font-size: 18px;
+        }
 }
