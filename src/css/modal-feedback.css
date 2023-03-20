@@ -25,7 +25,7 @@
     height: 28px;
     border-radius:50%;
     padding: 4px;
-    background-color:#FCF1E0;
+    background-color:var(--pink);
     border-color: transparent;
     display: block;
     margin-left: auto;
@@ -38,45 +38,43 @@
     stroke: var(--orange);
     }
 .feedback-text{
-    color: #ffffff;
-    font-family: 'Montserrat';
-    padding-left: 58px;
+    color: var(--pink);
 }
 .feedback-title{
     font-weight: 600;
 font-size: 20px;
 line-height: 24px; 
 margin-bottom: 8px;
-max-width:229px;
 text-transform: uppercase;
-
+padding-left: 58px;
 }
 .feedback-paragraph{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-max-width: 229px;
+/* max-width: 229px; */
+padding-left: 58px;
 }
-.svg-feedback-close{
-    stroke: black;
-}
+
 /*-------------MEDIA---------------*/
 
 @media screen and (max-width: 767px) {
     .modal-feedback{
-    width:311px;
+    max-width:311px;
+    }
+    .feedback-paragraph{
+        width: 229px;
     }
 }
-
 /*------------------------*/
 
 @media screen and (min-width: 768px) {
+    .center-div{
+        margin: 0 auto;
+    }
     .div-btn{
         padding-top: 24px;
         padding-right: 26px;
     }
     .modal-feedback{
-        max-width: 516px;
+        width: 516px;
         height: 414px;
         background-image: url(../img/modal-feedback/chocolate-tublet.png);
     }
@@ -89,16 +87,17 @@ max-width: 229px;
         padding-left: 170px;
     }
     .feedback-title{
-        max-width:276px;
         font-weight: 600;
     font-size: 24px;
     line-height: 28px;
+    padding-left: 0;
     }
     .feedback-paragraph{
         font-weight: 400;
         font-size: 18px;
         line-height: 24px;
-        width: 297px;
+        /* width: 297px; */
+        padding-left: 0;
     }
 }
 

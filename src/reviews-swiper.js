@@ -24,7 +24,7 @@ const swiper = new Swiper('.swiper', {
     slidesPerView:1,
     //відступ між слайдами
     spaceBetween:16,
-    
+    slidesPerGroup:1,
     speed:250,
     breakpoints:{
       375:{
@@ -36,6 +36,6 @@ const swiper = new Swiper('.swiper', {
       992:{
         slidesPerView:3,
         spaceBetween:28,
-      }
-    }
+      },
+    },
   });
