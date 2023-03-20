@@ -30,6 +30,7 @@ margin-bottom: 24px;
 .reviews-swiper {
   width: 100%;
   height: auto;
+  
 }
 
 
@@ -38,15 +39,19 @@ margin-bottom: 24px;
 
 }
 .reviews-swiper-wrapper{
-     padding-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 62px;
 }
 
 .reviews-swiper-slide{
 background:rgba(255, 255, 255, 1);
-width: 100%;
+width: 335px;
 height: 200px;
 padding-top: 56px;
-padding-bottom: 42px;
+margin-top: 50px;
+border: 1px solid rgba(17, 17, 17, 0.1);
+box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+border-radius: 15px;
 }
 .reviews-foto {
 
@@ -58,6 +63,9 @@ padding-bottom: 42px;
 }
 .reviews-coment {
     width: 100%;
+    min-height: 144px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 .reviews-caption {
     font-family: 'Montserrat';
@@ -102,14 +110,14 @@ color: rgba(17, 17, 17, 0.7);
 }
 
 /*---.reviews-swiper .swiper-pagination-bullet--*/
-.reviews-swiper-pagination-bullet{
+.reviews-swiper .swiper-pagination-bullet{
 /* Ellipse 4 */
 width: 13px;
 height: 13px;
 background: rgba(17, 17, 17, 0.1);
 }
 
- .reviews-swiper-pagination-bullet-active{
+ .reviews-swiper .swiper-pagination-bullet-active{
     width: 28px;
     height: 13px;
     border-radius: 10px;
@@ -119,8 +127,6 @@ background: rgba(17, 17, 17, 0.1);
 .leave-review-open-btn {
     display: block;
     margin-top: 32px;
-height: 41px;
-width: 157px;
 background: #FAFAFA;
 margin-left: auto;
 margin-right: auto;
@@ -165,11 +171,39 @@ reviews-text-btn{
 ********************Tablet******************************************************
 *******************************************************************************/
 @media screen and (min-width: 768px)  {
-    
+    .reviews-coment {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        }
+ .reviews-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+ }
+ .reviews-text-btn{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.2;
+height: auto;
+
+ }
+ .leave-review-open-btn{
+    width: 198px;
+ }
 }
 /******************************************************************************
 ********************Desktop******************************************************
 *******************************************************************************/
 @media screen and (min-width: 1200px)  {
+    .reviews-coment {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        } 
     
 }

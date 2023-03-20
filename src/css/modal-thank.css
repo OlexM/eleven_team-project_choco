@@ -3,12 +3,17 @@
     visibility:hidden;
     pointer-events: none;
 }
+.thank{
+    z-index: 2;
+    transition: opacity 300ms linear, visibility 300ms linear 300ms;
+}
 
 .div-center-btn{
     padding-top:14px;
     padding-right: 14px;
 }
 .modal-thank{
+    z-index: 2;
     background-color: var(--orange);
     border-radius: 15px;
     background-image: url(../img/modal-thank/mobile/chocolate-mobile.png);
@@ -18,6 +23,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition: transform 0.5s linear;
 }
 .button-close-modal{
     display:block;
