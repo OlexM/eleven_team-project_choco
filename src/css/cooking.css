@@ -54,7 +54,7 @@
   max-width: 335px;
   width: 100%;
   height: 500px;
-  background:  /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/mobile/cooking.jpg);
+  background:  /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/ url(../img/cooking/mobile/cooking.jpg);
   background-repeat: no-repeat;
   background-size: cover, cover;
   background-position: center;
@@ -99,8 +99,8 @@
   position: relative;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.29; 
-  letter-spacing: -0.02em; 
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
 
 .cooking-item:not(:last-child) {
@@ -115,129 +115,131 @@
   position: absolute;
   top: 4px;
   left: 0;
-  content: "";
+  content: '';
   display: inline-flex;
   width: 8px;
   height: 8px;
-  background-color: #4C4C4C;
+  background-color: #4c4c4c;
   border-radius: 50%;
-  border: 1px solid #ECEDED;
+  border: 1px solid #eceded;
 }
 
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
+  .cooking-video {
+    background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/ url(../img/cooking/mobile/cooking@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cooking-title {
+    width: 205px;
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
+
+  .cooking-icon-play {
+    width: 44px;
+    height: 44px;
+  }
+
+  .cooking-video {
+    max-width: 614px;
+    height: 400px;
+    background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/ url(../img/cooking/tablet/cooking-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    background-position: center;
+  }
+
+  .cooking-media {
+    max-width: 614px;
+  }
+
+  .cooking-recipe {
+    max-width: 614px;
+    padding: 32px 102px 32px 32px;
+  }
+
+  .cooking-recipe-title {
+    width: 350px;
+  }
+
+  .cooking-list {
+    margin-top: 28px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .cooking-video {
-      background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/mobile/cooking@2x.jpg);
+      background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/ url(../img/cooking/tablet/cooking-tablet@2x.jpg);
       background-repeat: no-repeat;
       background-size: cover, cover;
       background-position: center;
     }
   }
+}
 
-  @media screen and (min-width: 768px) {
-
-    .cooking-title {
-      width: 205px;
-      font-size: 24px;
-      line-height: 1.17;
-      margin-bottom: 50px;
-    }
-
-    .cooking-icon-play {
-      width: 44px;
-      height: 44px;
-    }
-
-    .cooking-video {
-      max-width: 614px;
-      height: 400px;
-      background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/tablet/cooking-tablet.jpg);
-      background-repeat: no-repeat;
-      background-size: cover, cover;
-      background-position: center;
-    }
-
-    .cooking-media {
-      max-width: 614px;
-    }
-
-    .cooking-recipe {
-      max-width: 614px;
-      padding: 32px 102px 32px 32px;
-    }
-
-    .cooking-recipe-title {
-      width: 350px;
-    }
-
-    .cooking-list {
-      margin-top: 28px;
-    }
-    
-    @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .cooking-video {
-        background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/tablet/cooking-tablet@2x.jpg);
-        background-repeat: no-repeat;
-        background-size: cover, cover;
-        background-position: center;
-      }
-    }
+@media screen and (min-width: 1200px) {
+  .cooking-block {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
   }
 
-  @media screen and (min-width: 1200px) {
-    .cooking-block {
-      flex-direction: row;
-      align-items: flex-end;
-      justify-content: center;
-      gap: 20px;
-    }
+  .cooking-video {
+    max-width: 600px;
+    height: 400px;
+    background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/ url(../img/cooking/desktop/cooking-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    background-position: center;
+  }
 
+  .cooking-media {
+    max-width: 600px;
+  }
+
+  .cooking-recipe {
+    max-width: 516px;
+    padding: 32px 59px 0 32px;
+  }
+
+  .cooking-desktop-none {
+    display: none;
+  }
+
+  .cooking-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .cooking-item:last-child {
+    margin-bottom: 94px;
+  }
+  .cooking {
+    margin-top: 128px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .cooking-video {
       max-width: 600px;
       height: 400px;
-      background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/desktop/cooking-desktop.jpg);
+      background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/ url(../img/cooking/desktop/cooking-desktop@2x.jpg);
       background-repeat: no-repeat;
       background-size: cover, cover;
       background-position: center;
     }
-
-    .cooking-media {
-      max-width: 600px;
-    }
-
-    .cooking-recipe {
-      max-width: 516px;
-      padding: 32px 59px 0 32px;
-    }
-
-    .cooking-desktop-none {
-      display: none;
-    }
-
-    .cooking-item:not(:last-child) {
-      margin-bottom: 24px;
-    }
-
-    .cooking-item:last-child {
-      margin-bottom: 94px;
-    }
-
-    @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-      .cooking-video {
-        max-width: 600px;
-        height: 400px;
-        background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/desktop/cooking-desktop@2x.jpg);        
-        background-repeat: no-repeat;
-        background-size: cover, cover;
-        background-position: center;
-      }
-    }
+  }
 }
