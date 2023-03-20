@@ -1,0 +1,206 @@
+.reviews {
+    background:#FAFAFA;
+ padding-bottom: 72px;
+ padding-top: 72px;
+
+}
+.reviews-title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: rgba(17, 17, 17, 1);
+margin-bottom: 24px;
+
+}
+.reviews-title-chocolate{
+    color: #FD9222;
+}
+
+.swiper {
+    
+
+}
+.reviews-swiper {
+  width: 100%;
+  height: auto;
+  
+}
+
+
+.swiper-wrapper {
+   
+
+}
+.reviews-swiper-wrapper{
+    padding-top: 50px;
+    margin-bottom: 62px;
+}
+
+.reviews-swiper-slide{
+background:rgba(255, 255, 255, 1);
+width: 335px;
+height: 200px;
+padding-top: 56px;
+margin-top: 50px;
+border: 1px solid rgba(17, 17, 17, 0.1);
+box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+border-radius: 15px;
+}
+.reviews-foto {
+
+    position: absolute;
+    top:-50px;
+    left: 40%;
+    border-radius: 50%;
+    
+}
+.reviews-coment {
+    width: 100%;
+    min-height: 144px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.reviews-caption {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+color: #111111;
+margin-bottom: 24px;
+
+}
+.reviews-text {
+    width: 100%;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: rgba(17, 17, 17, 0.7);
+
+
+}
+.reviews-swiper .swiper-pagination {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 20px;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+    
+}
+
+/*---.reviews-swiper .swiper-pagination-bullet--*/
+.reviews-swiper .swiper-pagination-bullet{
+/* Ellipse 4 */
+width: 13px;
+height: 13px;
+background: rgba(17, 17, 17, 0.1);
+}
+
+ .reviews-swiper .swiper-pagination-bullet-active{
+    width: 28px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: #FD9222;
+
+}
+.leave-review-open-btn {
+    display: block;
+    margin-top: 32px;
+background: #FAFAFA;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+
+padding: 12px 28px;
+
+width: 165px;
+height: 41px;
+
+border: 1px solid #FD9222;
+border-radius: 100px;
+transition: background 250ms linear, color 250ms linear,border 250ms linear; 
+
+}
+reviews-text-btn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    color: #111111;
+}
+.leave-review-open-btn:hover,
+.leave-review-open-btn-btn:focus {
+    background: rgba(253, 146, 34, 1);
+    color:#FFFFFF;
+    transition:background 250ms linear, color 250ms linear, border 250ms linear;
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 3.0);
+}
+/******************************************************************************
+********************Mobile******************************************************
+*******************************************************************************/
+@media screen and (min-width: 375px)  {
+
+}
+/******************************************************************************
+********************Tablet******************************************************
+*******************************************************************************/
+@media screen and (min-width: 768px)  {
+    .reviews-coment {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        }
+ .reviews-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+ }
+ .reviews-text-btn{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.2;
+height: auto;
+
+ }
+ .leave-review-open-btn{
+    width: 198px;
+ }
+}
+/******************************************************************************
+********************Desktop******************************************************
+*******************************************************************************/
+@media screen and (min-width: 1200px)  {
+    .reviews-coment {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        } 
+    
+}

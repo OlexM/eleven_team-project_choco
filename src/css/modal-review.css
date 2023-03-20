@@ -1,0 +1,221 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    width: 100%;
+    height: 100%; 
+}
+.backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+.modal-review {
+    padding: 24px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+
+    width: 311px;
+    height: 471px;
+
+    background: var(--body-background-color);
+    border-radius: 15px;
+}
+@media screen and (min-width:768px) {
+    .modal-review {
+        padding: 40px;
+
+        width: 517px;
+        height: 631px;
+    }
+}
+.modal-review-title {
+    padding-bottom: 32px ;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    
+    letter-spacing: -0.03em;
+    color: var(--black);
+}
+@media screen and (min-width:768px) {
+    .modal-review-title {
+        font-size: 24px;
+        line-height: 1.17;
+
+        width: 290px;
+    }
+}
+.modal-review-title-accent {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    
+    letter-spacing: -0.03em;
+    color: var(--orange);
+}
+@media screen and (min-width:768px) {
+    .modal-review-title-accent {
+        font-size: 24px;
+        line-height: 1.17;
+
+        width: 290px;
+    }
+}
+
+.modal-review-item {
+    display: flex;
+    padding: 14px 18px;
+    margin-bottom: 14px;
+
+    width: 100%;
+    height: 45px;
+
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 8px;
+}
+@media screen and (min-width:768px) {
+    .modal-review-item {
+        height: 66px;
+    }
+}
+
+.modal-review-item-phone {
+    display: flex;
+    padding: 10px 29px 11px 106px;
+    margin-bottom: 14px;
+
+    width: 100%;
+    height: 45px;
+
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 8px;
+}
+@media screen and (min-width:768px) {
+    .modal-review-item-phone {
+        height: 66px;
+        padding: 21px 23px 21px 177px;
+    }
+}
+.modal-review-container-flag {
+   position: absolute;
+}
+.modal-review-item-number {
+    position: absolute;
+    top: 14px;
+    left: 50px;  
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    
+    letter-spacing: -0.02em; 
+}
+@media screen and (min-width:768px) {
+    .modal-review-item-number {
+        top: 23px;
+        left: 74px;
+    }
+}
+.modal-review-item-number::after {
+    border-right: 2px;
+}
+
+.modal-review-item-icon {
+    position: absolute;
+    top: 11px;
+    left: 18px;
+
+    width: 24px;
+    height: 24px;
+}
+@media screen and (min-width:768px) {
+    .modal-review-item-icon {
+        top: 21px;
+        left: 24px;
+    }
+}
+::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    
+    color: rgba(64, 64, 64, 0.3);
+}
+
+.modal-review-textarea {
+    padding: 14px;
+    margin-bottom: 18px;
+
+    width: 100%;
+    height: 91px; 
+    resize: none;
+
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+}
+@media screen and (min-width:768px) {
+    .modal-review-textarea {
+        height: 137px;
+    }
+}
+
+.modal-review-button {
+    padding: 12px 28px;
+    
+    width: 93px;
+    height: 41px;
+    
+    font-size: 14px;
+    line-height: 1.2;
+
+    color: var(--bg-color-light);
+    background: var(--orange);
+    border-radius: 100px;
+    border: none;
+}
+@media screen and (min-width:768px) {
+    .modal-review-button {
+        width: 117px;
+        height: 45px;
+
+        padding: 14px 20px;
+    }
+}
+
+.modal-btn {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+
+    width: 24px;
+    height: 24px;
+
+    cursor: pointer;
+    background: var(--white);
+    border: none;
+}
+@media screen and (min-width:768px) {
+    .modal-btn {
+        top: 24px;
+        right: 24px;
+    }
+}
+.modal-review-container {
+    position: relative;
+}
+
