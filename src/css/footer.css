@@ -5,8 +5,8 @@
 
   background-color: var(--bg-color-dark);
 }
-.container.footer {
-  max-width: 375px;
+.footer > .container {
+  width: 100%;
 }
 .footer-top {
   margin-bottom: 32px;
