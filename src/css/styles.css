@@ -7,6 +7,7 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./testing.css');
+@import url('./products.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
