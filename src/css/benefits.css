@@ -3,6 +3,7 @@
 
   padding-bottom: 72px;
 }
+
 .benefits-container {
   max-width: 375px;
   padding: 20px 20px;
@@ -11,16 +12,11 @@
 }
 
 .benefits-list {
-  flex-wrap: wrap;
-
-  display: flex;
-
-  gap: 20px;
-}
-.benefits-item {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
+
 .benefits-icon {
   display: block;
   width: 62px;
@@ -30,45 +26,48 @@
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
+
 .benefits-title {
   padding-bottom: 18px;
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 1.22px;
+  line-height: 1.22;
 
   color: #ffffff;
 }
 
 .benefits-text {
-  font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
 }
+
 @media screen and (min-width: 375px) {
   .benefits-container {
     max-width: 375px;
     margin-inline: auto;
   }
 }
+
 @media screen and (min-width: 768px) {
   .benefits-container {
     max-width: 768px;
-    /* margin-inline: auto; */
   }
+
   .benefits-section {
     padding-top: 0;
     padding-bottom: 100px;
   }
-  .benefits-box {
+
+  .benefits-list {
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 336px;
     gap: 32px;
   }
-  .benefits-list {
-    flex-wrap: wrap;
-    gap: 32px;
+
+  .benefits-item {
+    width: calc((100% - 32px) / 2);
   }
 }
+
 @media screen and (min-width: 1200px) {
   .benefits-section {
     padding-top: 128px;
@@ -77,34 +76,23 @@
   .benefits-container {
     max-width: 1240px;
   }
+
   .benefits-list {
+    position: relative;
     flex-wrap: nowrap;
-    display: flex;
-    padding: 50px 50px;
     gap: 70px;
-    align-content: center;
-  }
-  .benefits-text {
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
-    width: 308px;
-  }
-  .benefits-box {
-  }
-  .benefits-item {
+    justify-content: space-between;
   }
 
-  .benefits-box-box {
-    display: flex;
-  }
-
-  .benefits-box-box ::after {
+  .benefits-item:not(:last-child)::after {
+    position: relative;
+    left: calc(100% + 18px);
+    bottom: 150px;
     content: '';
-    width: 124px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    transform: rotate(90deg);
     display: block;
-    margin-left: 290px;
+    height: 124px;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    
   }
 }
