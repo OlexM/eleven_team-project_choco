@@ -5,6 +5,8 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./root.css');
+@import url('./general.css');
 @import url('./header.css');
 @import url('./testing.css');
 @import url('./subscribe.css');
@@ -15,9 +17,6 @@
   line-height: 24px;
   font-weight: 400;
 
-  --whitecolor : #FFFFFF;
-  --btncolor :#FD9222 ;
-  
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
 
