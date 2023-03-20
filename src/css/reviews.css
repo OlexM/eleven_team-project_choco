@@ -104,7 +104,6 @@ color: rgba(17, 17, 17, 0.7);
     background: transparent;
     margin-left: auto;
     margin-right: auto;
-    
    
 
     
@@ -149,10 +148,7 @@ reviews-text-btn{
     font-weight: 600;
     font-size: 14px;
     line-height: 1.2;
-    /* identical to box height */
-    
     text-align: center;
-    
     color: #111111;
 }
 .leave-review-open-btn:hover,
