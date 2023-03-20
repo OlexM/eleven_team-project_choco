@@ -312,7 +312,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
-.swiper {
+.swiper-wrap-buy-n {
     border-radius: 15px;
     background-color: #ffffff;
     border: 1px solid rgba(17, 17, 17, 0.1);
@@ -323,7 +323,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .swiper {
+    .swiper-wrap-buy-n {
         /* width: 160px;
         height: 196px; */
         position: absolute;
