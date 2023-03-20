@@ -1,5 +1,5 @@
 .benefits-section {
-    padding-top: 72px;
+    padding-top: 0px;
   padding-bottom: 72px;
   
 }
@@ -87,27 +87,44 @@ line-height: 1.22px;
   }
 
   .benefits-container {
-      max-width: 1200px;
+      max-width: 1240px;
   }
   .benefits-list {
     flex-wrap:nowrap;
-    display: flex;
+  
    
     padding: 50px 50px;
     gap: 70px;
-    align-content: center; 
+  
   }
+  .benefits-text {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    width: 308px;
+}
   .benefits-box {
-   align-items: center;
+   
+    
+  }
+  .benefits-item {
+    
+     
+   }
+  
+  .benefits-box-box {
+    
+  display:flex ;
     
   }
  
-.benefits-box ::after {
+.benefits-box-box ::after {
   content:"" ;
   width: 124px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   transform: rotate(90deg); 
 display:block ;
+margin-left: 290px;
   
 }
   
