@@ -20,7 +20,7 @@
     transition: opacity 300ms linear, visibility 300ms linear; 
 
     overflow-y: scroll;    
-}
+  }
 
 .modal-buy-now {
     border-radius: 15px;
@@ -36,6 +36,17 @@
     transform: translate(-50%, -50%) ;
     padding: 20px;
     transition: transform 0.5s linear;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-buy-now {
+    width: 609px;
+    min-height: 1058px;
+<<<<<<< Updated upstream
+=======
+    padding: 31px;
+>>>>>>> Stashed changes
+  }
 }
 
 .btn-close-open {
@@ -79,7 +90,6 @@
     display: flex;
     justify-content: center;
     
-
     gap: 16px;
     /* width: 231px;
     height: 257px;
@@ -100,18 +110,23 @@
     padding-left: 20px;
 }
 
+/* .swiper-slide {
+  
+  padding: 32px;
+} */
+
 @media screen and (max-width: 768px)  {
     .chocolate-list {
-    position: absolute;
-        white-space: nowrap;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        border: 0;
-        padding: 0;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        margin: -1px;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
     }
 }
 
@@ -168,22 +183,24 @@
 
 
 .input-wrap {
-    display: block;
-    position: relative;
+  display: block;
+  position: relative;
 }
+
 .modal-icon-tel {
-    position: absolute;
-    left: 18px;
-    top: 50%;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
 }
+
 .modal-icon-card {
-    position: absolute;
-    right: 14px;
-    top: 50%;
-    transform: translateX(-50%);
-    transform: translateY(-50%);
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
 }
 
 
@@ -195,6 +212,7 @@
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   display: block;
   padding-left: 18px;
+  padding-right: 18px;
 
   font-weight: 400;
   font-size: 14px;
@@ -208,11 +226,6 @@
     letter-spacing: 0.02em;
     color: rgba(64, 64, 64, 0.3);
 }
-
-/* .modal-input:nth-child(4) {
-    padding-left: 150px;
-} */
-
 
 @media screen and (min-width: 768px) {
     .modal-input {
@@ -249,7 +262,8 @@
   flex-wrap: wrap;
   row-gap: 14px;
 }
-.comment-placeholder {
+
+.comment-text {
     resize: none;
     padding: 14px 18px;
     font-weight: 400;
@@ -261,12 +275,18 @@
     border: 1.5px solid rgba(17, 17, 17, 0.05);
 }
 @media screen and (min-width: 768px) {
-    .comment-placeholder {
-        width: 513px;
+    .comment-text {
+        width: 100%;
+    }
+
+    .eryrt {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 21px;
     }
 }
 
-.comment-placeholder::placeholder {
+.comment-text::placeholder {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
@@ -295,6 +315,30 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
+.swiper {
+<<<<<<< Updated upstream
+  width: 160px;
+    height: 196px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+  
+    padding-top: 24px;
+    padding-right: 20px;
+    padding-left: 20px;
+=======
+  display: flex;
+  justify-content: center;
+
+
+  width: 231px;
+  height: 257px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+>>>>>>> Stashed changes
+}
+
 @media screen and (min-width: 768px) {
     .swiper {
         /* width: 160px;
@@ -312,49 +356,7 @@
     }
 }
 
-.container {
-  width: 375px;
-  /* margin-inline: auto; */
-}
 
-@media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-    /* margin-inline: auto; */
-  }
-}
-
-@media screen and (min-width: 768px) {
-  /* .section {
-        padding-top: 100px;
-    } */
-
-  .container {
-    width: 768px;
-    /* padding-inline: 32px; */
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  /* .section {
-        padding-top: 128px;
-    } */
-
-  .container {
-    width: 1200px;
-  }
-}
-
-/*-----Part hidden-------*/
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
+.swiper-wrapper {
   padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
 }
