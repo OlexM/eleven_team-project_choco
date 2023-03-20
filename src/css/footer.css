@@ -21,10 +21,6 @@
 }
 
 .footer-slogan-choco {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: -0.02em;
   color: var(--orange);
 }
 
@@ -34,7 +30,6 @@
   margin-bottom: 32px;
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.29;
   color: var(--white);
 }
@@ -67,7 +62,7 @@
   stroke: var(--white);
   fill: var(--bg-color-dark);
 
-  transition: fill var(--timing-function);
+  transition: stroke var(--timing-function);
 }
 
 .footer-social-icon:is(:hover, :focus) {
@@ -130,6 +125,15 @@
     margin-bottom: 0;
   }
 
+  .footer-social {
+    gap: 18px;
+  }
+
+  .footer-social-icon {
+    width: 24px;
+    height: 24px;
+  }
+
   .footer-line-container::after {
     margin-bottom: 24px;
   }
@@ -147,9 +151,5 @@
   
   .footer-contacts-mod {
     gap: 63px;
-  }
-
-  .footer-social {
-    gap: 18px;
   }
 }
