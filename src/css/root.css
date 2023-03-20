@@ -28,4 +28,6 @@
     /*-----Button Dark -----*/
     --button-border-normal-dark: #FFFFFF;
     --button-border-active-dark: #FD9222;
+    /*Timing-function*/
+    --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
