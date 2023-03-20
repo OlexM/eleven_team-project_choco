@@ -33,6 +33,19 @@
   color: var(--orange);
 }
 
+.cooking-icon-play {
+  width: 35px;
+  height: 35px;
+  transition-property: width, height;
+  transition: var(--timing-function);
+}
+
+.cooking-icon-play:hover,
+.cooking-icon-play:focus {
+  width: 55px;
+  height: 55px;
+}
+
 .cooking-video {
   position: relative;
   display: flex;
@@ -41,17 +54,15 @@
   max-width: 335px;
   width: 100%;
   height: 500px;
-  background: url(../img/cooking/play.svg), /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/mobile/cooking.jpg);
+  background:  /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/mobile/cooking.jpg);
   background-repeat: no-repeat;
-  background-size: 35px, cover, cover;
+  background-size: cover, cover;
   background-position: center;
   border-radius: 15px;
-  transition: background-size var(--timing-function);
 }
 
 .cooking-video:hover {
   cursor: pointer;
-  background-size: 50px, cover, cover;
 }
 
 .cooking-media {
@@ -118,9 +129,9 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .cooking-video {
-      background: url(../img/cooking/play.svg), /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/mobile/cooking@2x.jpg);
+      background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/mobile/cooking@2x.jpg);
       background-repeat: no-repeat;
-      background-size: 35px, cover, cover;
+      background-size: cover, cover;
       background-position: center;
     }
   }
@@ -134,12 +145,17 @@
       margin-bottom: 50px;
     }
 
+    .cooking-icon-play {
+      width: 44px;
+      height: 44px;
+    }
+
     .cooking-video {
       max-width: 614px;
       height: 400px;
-      background: url(../img/cooking/play.svg), /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/tablet/cooking-tablet.jpg);
+      background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/tablet/cooking-tablet.jpg);
       background-repeat: no-repeat;
-      background-size: 44px, cover, cover;
+      background-size: cover, cover;
       background-position: center;
     }
 
@@ -165,9 +181,9 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
       .cooking-video {
-        background: url(../img/cooking/play.svg), /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/tablet/cooking-tablet@2x.jpg);
+        background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/tablet/cooking-tablet@2x.jpg);
         background-repeat: no-repeat;
-        background-size: 44px, cover, cover;
+        background-size: cover, cover;
         background-position: center;
       }
     }
@@ -184,9 +200,9 @@
     .cooking-video {
       max-width: 600px;
       height: 400px;
-      background: url(../img/cooking/play.svg), /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/desktop/cooking-desktop.jpg);
+      background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/desktop/cooking-desktop.jpg);
       background-repeat: no-repeat;
-      background-size: 44px, cover, cover;
+      background-size: cover, cover;
       background-position: center;
     }
 
@@ -218,9 +234,9 @@
       .cooking-video {
         max-width: 600px;
         height: 400px;
-        background: url(../img/cooking/play.svg), /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/desktop/cooking-desktop@2x.jpg);        
+        background: /*linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),*/url(../img/cooking/desktop/cooking-desktop@2x.jpg);        
         background-repeat: no-repeat;
-        background-size: 44px, cover, cover;
+        background-size: cover, cover;
         background-position: center;
       }
     }
