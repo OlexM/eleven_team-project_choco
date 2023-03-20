@@ -1,45 +1,145 @@
-:root {
-    /*-----Body-----*/
-    --body-background-color: #FAFAFA;
-    /*----Font color----*/
-    --text-color-light: #111111;
-    --text-color-dark: #FFFFFF;
-    --secondary-text-color-dark: rgba(255, 255, 255, 0.7);
-    --secondary-text-color-light: rgba(17, 17, 17, 0.7);
-    /*-----Section Background color------*/
-    --bg-color-light: #FFFFFF;
-    --bg-color-dark: #1E1823;
-    /*---Colors---*/
-    --black: #111111;
-    --blackcurrant: #1E1823;
-    --orange: #FD9222;
-    --white: #FAFAFA;
-    --pink: #FCF1E0;
-    /*----Icons----*/
-    --icon-color-normal-light: #111111;
-    --icon-color-normal-dark: #FFFFFF;
-    --icon-color-active: #FD9222;
-    --close-icon: linear-gradient(181.96deg, #f16529 1.64%, #d44528 98.35%);
-    /*----Button Light ----*/
-    --button-bg-normal-light: #FD9222;
-    --button-bg-active-light: #FCF1E0;
-    --button-font-normal-light: #FFFFFF;
-    --button-font-active-light: #FD9222;
-    /*-----Button Dark -----*/
-    --button-border-normal-dark: #FFFFFF;
-    --button-border-active-dark: #FD9222;
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .hero-main-container{
+        max-width: 375px;
+        padding: 0 20px 72px 20px;
+        margin: 0 auto;
+    }
+    .hero-container {
+        min-width: 250px;
+        margin-inline: auto;
+        padding: 0;
+    }
+    .hero{
+        width:100%;
+        height: auto;
+        /*height:620px;*/
+        margin: 0 auto;
+        background-image:url(../img/hero/mobile/hero.jpg);
+        border-radius: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 395px 20px 20px 20px;
+        background-color: var(--bg-color-dark);    
+    }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image:url(../img/hero/mobile/hero_2x.jpg);
+            }
+        }
+    .hero_title{
+        width: 100%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        color:var(--bg-color-light)  ;
+        margin-bottom: 32px;
+    }
+    .hero-div{
+        display: flex;
+        justify-content: left;
+        gap: 14px;
+        margin-bottom: 32px;
+    }
+    .hero-button-buy{
+        max-width: 100px;
+        height: 41px;
+        background:var(--button-bg-normal-light);
+        border-radius: 100px;
+        border: none;
+        padding: 12px 20px;
+    }
+    .hero-button-buy:hover,
+    .hero-button-buy:focus{
+        background-color: var(--button-bg-active-light);  
+    }
+    .hero-button-how{
+        max-width: 135px;
+        height: 41px;
+        background-color: transparent;
+        border: 1px solid var(--bg-color-light);
+        border-radius: 100px;
+        padding: 12px 20px;
+    }
+    .hero-button-how:hover,
+    .hero-button-how:focus {
+        background-color: var(--bg-color-light);
+        border: 1px solid var(--button-bg-normal-light);
+    }
+    .hero-button-text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px; /*должно быть 14*/
+        line-height: 1.2;
+        text-align: center;
+        color:var(--bg-color-light);
+    }
+    .hero-button-buy:hover>:first-child,
+    .hero-button-buy:focus>:first-child{
+        color: var(--button-bg-normal-light);
+    }
+    .hero-button-how:hover>:first-child,
+    .hero-button-how:focus>:first-child{
+        color: var(--button-bg-normal-light);
+    }
+    .hero-scroll{
+        display: flex;
+        justify-content: left;
+        gap: 12px;
+        align-items: center;
+        width: 107px;
+    }
+    .hero-text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px; /*должен быть 12*/
+        line-height: 1.17;
+        color:var(--bg-color-light);
+    }
+    .hero-button-scroll{
+        width: 28px;
+        height: 28px;
+        background-color: var(--bg-color-light);
+        border-radius: 50%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: var(--button-bg-normal-light);
+    }
+    .hero-scroll:hover>:first-child,
+    .hero-scroll:focus>:first-child{
+        color: var(--button-bg-normal-light);
+    }
+    .hero-scroll:hover>:last-child,
+    .hero-scroll:focus>:last-child{
+        background-color: var(--button-bg-normal-light);
+        fill: var(--bg-color-light);
+    }
 }
 
-
 @media screen and (min-width: 375px) {
+    .hero-main-container{
+        max-width: 375px;
+        padding: 0 20px 72px 20px;
+        margin: 0 auto;
+    }
     .hero-container {
         width: 295px;
         margin-inline: auto;
         padding: 0;
     }
     .hero{
-        max-width:335px;
-        height:620px;
+        width:100%;
+        height: auto;
+        /*height:620px;*/
         margin: 0 auto;
         background-image:url(../img/hero/mobile/hero.jpg);
         border-radius: 30px;
@@ -125,7 +225,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 11px; /*должен быть 12*/
         line-height: 1.17;
         color:var(--bg-color-light);
     }
@@ -152,13 +252,15 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+    .hero-main-container{
+        max-width: 768px;
+        padding: 0 32px 50px 32px;
+    }
     .hero-container {
         width: 624px;
     }
     .hero{
-        max-width:704px;
-        height:890px;
+        /*height:890px;*/
         background-image: url(../img/hero/tablet/hero.jpg);
         padding: 671px 40px 40px 40px;
     }
@@ -200,13 +302,15 @@
 }
 
 @media screen and (min-width: 1200px) {
-   
+    .hero-main-container{
+        max-width: 1200px;
+        padding: 0 32px 72px 32px;
+    }   
     .hero-container {
         width: 1056px;
     }
     .hero{
-        max-width:1136px;
-        height:620px;
+        /*height:620px;*/
         background-image: url(../img/hero/desktop/hero.jpg);
         padding: 381px 40px 40px 40px;
         background-color:var(--button-bg-active-light);
@@ -221,3 +325,4 @@
     
 
 }
+
