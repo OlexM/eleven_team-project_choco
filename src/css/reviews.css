@@ -100,9 +100,10 @@ color: rgba(17, 17, 17, 0.7);
 .reviews-swiper .swiper-pagination {
     position: relative;
     margin-top: 20px;
-        padding-top: 20px;
-    width: 106px;
+    padding-top: 20px;
     background: transparent;
+    margin-left: auto;
+    margin-right: auto;
     
    
 
