@@ -107,10 +107,11 @@
     padding-left: 20px;
 }
 
-/* .swiper-slide {
-  
-  padding: 32px;
-} */
+.swiper-slide {
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
 
 @media screen and (max-width: 768px)  {
     .chocolate-list {
@@ -317,7 +318,6 @@
     background-color: #ffffff;
     border: 1px solid rgba(17, 17, 17, 0.1);
   
-    padding: 32px;
     width: 231px;
     height: 257px;
 }
@@ -343,3 +343,16 @@
 .swiper-wrapper {
   padding: 0;
 }
+
+
+.swiper-pagination-bullet-active {
+  width: 28px;
+  height: 13px;
+  background-color: #FD9222;
+  border-radius: 15px;
+}
+
+/* .swiper-pagination-bullets {
+  width: 28px;
+  height: 13px;
+} */
