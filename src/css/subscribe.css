@@ -45,12 +45,12 @@
         font-size: 18px;
         line-height: 1.2;
         letter-spacing: -0.03em;
-        color:#FFFFFF;
+        color: var(--white);
         
        margin-bottom: 20px;
         text-align: center;
        
-        font-family: 'Montserrat-SemiBold' , sans-serif;
+       
         
     }
 
@@ -61,11 +61,11 @@
         font-size:14px ;
         line-height:18px ;
         letter-spacing:-0.02em ;
-        color:#FFFFFF ;
+        color:var(--white) ;
         margin-bottom: 10px;
         text-align: center;
 
-        font-family: 'Montserrat-Regular' , sans-serif;
+        
         
     }
     .subscribe-btn{
@@ -78,7 +78,7 @@
         
 
         
-        background: #FD9222;
+        background: var(--orange);
         border-radius: 100px;
         
         border: none;
@@ -95,14 +95,14 @@
         
 
 
-        font-family: 'Montserrat-Medium' , sans-serif;
+
         
         font-weight: 600;
         font-size: 16px;
         line-height: 25px;
 
 
-        color: #FFFFFF;
+        color: var(--white);
 
 
         flex: none;
@@ -141,7 +141,7 @@
         margin-left:120px ;
         margin-top: 3px;
         margin-bottom:34px ;
-        font-family: 'Montserrat-SemiBold', sans-serif;
+
     }
 
     .subscribe-par{
@@ -149,7 +149,7 @@
         font-size: 14px;
         text-align: center;
         margin-left: 70px;
-        font-family: 'Montserrat-Reqular', sans-serif;
+
     }
     .subscribe-btn{
         display: flex;
@@ -161,7 +161,7 @@
     width: 172px;
     height: 50px;
 
-    background: #FD9222;
+    background: var(--orange);
     border-radius: 100px;
 
 
@@ -177,7 +177,7 @@
     padding-left: 45px;
     padding-top: 18px;
 
-    font-family: 'Montserrat-Medium' , sans-serif;
+
     }
 
 }
@@ -201,7 +201,7 @@
         font-weight: 600;
         font-size: 24px;
 
-        font-family:'Montserrat-SemiBold', sans-serif ;
+
     }
     .subscribe-par{
         margin-left: 300px;
@@ -209,7 +209,7 @@
         font-weight: 400;
         font-size: 14px;
 
-        font-family: 'Montserrat-Regular' , sans-serif;
+
     }
     .subscribe-btn{
         display: flex;
@@ -224,7 +224,7 @@
         width: 172px;
         height: 50px;
 
-        background: #FD9222;
+        background: var(--orange);
         border-radius: 100px;
 
 
@@ -232,7 +232,7 @@
         order: 1;
         flex-grow: 0;
 
-        font-family: 'Montserrat-Medium', sans-serif;
+
     }
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
