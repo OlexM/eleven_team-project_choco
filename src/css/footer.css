@@ -5,7 +5,9 @@
 
   background-color: var(--bg-color-dark);
 }
-
+.container.footer {
+  max-width: 375px;
+}
 .footer-top {
   margin-bottom: 32px;
 }
@@ -97,7 +99,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  
+
   .footer-top {
     display: flex;
     justify-content: space-between;
@@ -148,7 +150,7 @@
   .footer-top {
     margin-bottom: 62px;
   }
-  
+
   .footer-contacts-mod {
     gap: 63px;
   }
