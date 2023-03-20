@@ -1,0 +1,108 @@
+.modal-feedback{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:311px;
+    height: 350px;
+    background-color:var(--orange);
+    border-radius: 15px;
+    background-image: url(../img/modal-feedback/chocolate-mobile.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.is-hidden{
+    opacity:0;
+    visibility:hidden;
+    pointer-events: none;
+  }
+.div-btn{
+    padding-top:14px;
+    padding-right: 14px;
+}
+.button-close-feedback{
+    width: 28px;
+    height: 28px;
+    border-radius:50%;
+    padding: 4px;
+    background-color:#FCF1E0;
+    border-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-modal-close{
+    stroke: var(--orange);
+    }
+.feedback-text{
+    color: #ffffff;
+    font-family: 'Montserrat';
+    padding-left: 58px;
+}
+.feedback-title{
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px; 
+margin-bottom: 8px;
+max-width:229px;
+text-transform: uppercase;
+
+}
+.feedback-paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+max-width: 229px;
+}
+.svg-feedback-close{
+    stroke: black;
+}
+/*-------------MEDIA---------------*/
+
+@media screen and (max-width: 767px) {
+    .modal-feedback{
+    width:311px;
+    }
+}
+
+/*------------------------*/
+
+@media screen and (min-width: 768px) {
+    .div-btn{
+        padding-top: 24px;
+        padding-right: 26px;
+    }
+    .modal-feedback{
+        max-width: 516px;
+        height: 414px;
+        background-image: url(../img/modal-feedback/chocolate-tublet.png);
+    }
+    .button-close-feedback{
+        width:38px;
+        height:38px;
+        margin-bottom: 101px;
+    }
+    .feedback-text{
+        padding-left: 170px;
+    }
+    .feedback-title{
+        max-width:276px;
+        font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    }
+    .feedback-paragraph{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        width: 297px;
+    }
+}
+
+/*------------------------*/
+
+@media screen and (min-width: 1200px) {
+}

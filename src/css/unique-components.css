@@ -7,50 +7,30 @@
 }
 .unique {
     width: 335px;
-    /* height: 204px; */
     margin-left: auto;
     margin-right: auto;
 }
-
 .taste {
     color: var(--orange);
 }
-
-.container-title {
-    width: 283px;
-    height: 72px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 24px;
-}
-
 .unique-title {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: -0.03em;
-    text-transform: uppercase;
     color: var(--black);
     padding-left: 46px;
-    padding-right: 46px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 28px;
+    padding-right: 46px; 
+    margin-bottom: 24px;
 }
-
 .unique-text {
-    line-height: 18px;
+    line-height: 1.29;
     text-align: center;
     letter-spacing: -0.02em;
     padding-bottom: 32px;
-    margin-left: auto;
-    margin-right: auto;
     color:var(--black);
 }
-
-
-
 .milk-choc-block {
     width: 335px;
     height: 270px;
@@ -60,7 +40,6 @@
     color: var(--text-color-dark);
     border-radius: 15px; 
 }
-
 .milk-block {
     width: 335px;
     height: 270px;
@@ -69,8 +48,8 @@
     background-color: var(--bg-color-light);
     color: var(--text-color-light);
     border-radius: 15px;
+    border: 1px solid var(--orange);
 }
-
 .nuts-block {
     width: 335px;
     height: 270px;
@@ -80,7 +59,6 @@
     color: var(--text-color-dark);
     border-radius: 15px;
 }
-
 .chocolate-block {
     width: 335px;
     height: 270px;
@@ -89,6 +67,7 @@
     background-color: var(--bg-color-light);
     color: var(--text-color-light);
     border-radius: 15px;
+    border: 1px solid var(--orange);
 }
 .foto-components {
     width: 224px;
@@ -96,39 +75,33 @@
     margin-right: auto;
     margin-left: auto;
 }
-
-
-.components-item {
-    
+.components-name {
+    padding-top: 25px;
 }
-
 .components-title {
     font-weight: 600;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    text-transform: uppercase;
     padding-left: 28px;
 }
-
 .components-cards {
     width: 335px;
     height: 270px;
     padding: 28px;
 }
-
 .title-components {
     font-weight: 600;
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: -0.03em;
-    text-transform: uppercase;
     color: var(--text-color-light);
     margin-bottom: 8px;
 }
-
 .components-btn {
     height: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
     background: var(--button-bg-normal-light);
     border-radius: 35px;
     border: none;
@@ -136,7 +109,6 @@
     line-height: 1.2;
     color: var(--text-color-dark);
 }
-
 .btn-components {
     width: 93px;
     height: 24px;
@@ -146,16 +118,13 @@
     font-size: 10px;
     line-height: 1.2;
     color: var(--text-color-light);
-
 }
-
 .cards-text{
     width: 279px;
     height: 146px;
     margin-top: 14px;
     overflow: auto;
 }
-
 .components-text {
     height: 146px;
     font-size: 14px;
@@ -163,17 +132,14 @@
     letter-spacing: -0.02em;
     color: var(--text-color-light);
 }
-
 .box-overlay {
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
 }
-
 .box-overlay:hover .overlay-text {
     transform: translateX(0);
 }
-
 .overlay-text {
     position: absolute;
     top: 0;
@@ -185,25 +151,31 @@
     transform: translateX(-100%);
     transition: transform 250ms ease;
 }
-
 @media screen and (min-width: 768px) {
     .unique-components {
+        padding-left: 32px;
+        padding-right: 32px;
         padding-top: 100px;
     }
     .unique {
         width: 704px;
+       
     }
     .unique-title {
         width: 411px;
         font-size: 24px;
         line-height: 1.17;
-        text-align: center;
-        letter-spacing: -0.03em;
-        text-transform: uppercase;
+        letter-spacing: -0.03em; 
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 28px;
     }
     .unique-text {
         width: 486px;  
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 50px;
     }
     .box-overlay {
         margin-bottom: 0;
@@ -221,12 +193,9 @@
     .unique {
         width: 1136px;
     }
-    .unique-text {
-        padding-bottom: 50px;
-    }
     .foto-components {
-        width: 270px;
-        height: 270px;
+        width: 206px;
+        height: 160px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -240,12 +209,13 @@
     }
     .nuts-block {
         width: 270px;
-        height: 270px;
     }
-    
     .chocolate-block {
         width: 270px;
         height: 270px;
+    }
+    .components-name {
+        padding-top: 36px;
     }
     .components-cards {
         width: 270px;
@@ -258,5 +228,8 @@
         margin-top: 14px;
         overflow: auto;
     }
-
+    .components-list {
+        flex-wrap: nowrap;
+        gap: 19px;
+        }
 }

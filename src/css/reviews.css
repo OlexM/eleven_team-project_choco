@@ -1,0 +1,134 @@
+.reviews {
+    background:#FAFAFA;
+ padding-bottom: 72px;
+
+}
+.reviews-title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: rgba(17, 17, 17, 1);
+margin-bottom: 24px;
+
+}
+.reviews-title-chocolate{
+    color: #FD9222;
+}
+
+.swiper {
+    
+
+}
+.reviews-swiper {
+  
+}
+
+
+.swiper-wrapper {
+    padding-top: 50px;
+
+}
+
+.reviews-swiper-slide{
+background:rgba(255, 255, 255, 1);
+width: 100%;
+height: 200px;
+padding-top: 56px;
+padding-bottom: 42px;
+}
+.reviews-foto {
+
+    position: absolute;
+    top:-50px;
+    left: 35%;
+    border-radius: 50%;
+    
+}
+.reviews-coment {
+}
+.reviews-caption {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+color: #111111;
+margin-bottom: 24px;
+
+}
+.reviews-text {
+    width: 100%;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: rgba(17, 17, 17, 0.7);
+
+}
+.swiper-pagination {
+    padding-top: 20px;
+    width: 106px;
+}
+.swiper-pagination-bullet-active{
+    width: 28px;
+    height: 13px;
+    background-color: #FD9222;
+
+}
+swiper-pagination-bullet{
+/* Ellipse 4 */
+
+width: 13px;
+height: 13px;
+
+background: rgba(17, 17, 17, 0.1);
+}
+
+.leave-review-open-btn {
+    display: block;
+    margin-top: 32px;
+height: 41px;
+width: 157px;
+background: #FAFAFA;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+
+padding: 12px 28px;
+
+width: 165px;
+height: 41px;
+
+border: 1px solid #FD9222;
+border-radius: 100px;
+
+}
+reviews-text-btn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #111111;
+}
