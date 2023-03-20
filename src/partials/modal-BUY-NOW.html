@@ -1,36 +1,61 @@
 
-<div class=" backdrop " data-modal>
+<div class="backdrop js-menu-container menu-container is-hidden" data-modal >
     <div class="modal-buy-now">
-        <button type="button" class="btn-close-open" data-modal-close>
+        <button type="button" class="btn-close-open js-close-menu" data-modal-close >
             <svg width="24" height="24">
                 <use href="../img/symbol-defs.svg#icon-close"></use>
             </svg>
         </button>
         <h1 class="header-modal-buy"><span class="acсent">BUY</span> NOW</h1>
+        <Ul class="chocolate-list">
+            <li class="wrap-img-choco">
+                <img src="./img/modal-buy-now/chocolate1-mob-x1.jpg"
+                    srcset="./img/modal-buy-now/chocolate1-mob-x1.jpg 1x, ./img/modal-buy-now/chocolate1-mob-x1.jpg 2x" alt="chocolate1"
+                    width="120" class="">
+                <button type="submit" class="weight chocolate-selection">
+                    100 g
+                </button>
+            </li>
+            <li class="wrap-img-choco">
+                <img src="./img/modal-buy-now/chocolate2-mob-x1.jpg"
+                    srcset="./img/modal-buy-now/chocolate2-mob-x1.jpg 1x, ./img/modal-buy-now/chocolate2-mob-x1.jpg 2x" alt="chocolate2"
+                    width="120" class="">
+                <button type="submit" class="weight chocolate-selection">
+                    200 g
+                </button>
+            </li>
+            <li class="wrap-img-choco">
+                <img src="./img/modal-buy-now/chocolate3-mob-x1.jpg" alt="chocolate3" width="120" class=""
+                    srcset="./img/modal-buy-now/chocolate3-mob-x1.jpg 1x, ./img/modal-buy-now/chocolate3-mob-x2.jpg 2x">
+                <button type="submit" class="weight chocolate-selection">
+                    300 g
+                </button>
+            </li>
+        </Ul>
         <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
             <ul class="swiper-wrapper">
                 <!-- Slides -->
                 <li class="swiper-slide">
-                    <img src="../img/modal-buy-now/chocolate1-mob-x1.jpg"
-                        srcset="../img/modal-buy-now/chocolate1-mob-x1.jpg 1x, ../img/modal-buy-now/chocolate1-mob-x1.jpg 2x"
+                    <img src="./img/modal-buy-now/chocolate1-mob-x1.jpg"
+                        srcset="./img/modal-buy-now/chocolate1-mob-x1.jpg 1x, ./img/modal-buy-now/chocolate1-mob-x1.jpg 2x"
                         alt="chocolate1" width="167" class="chocolate">
                     <div class="weight">
                         100 g
                     </div>
                 </li>
                 <li class="swiper-slide">
-                    <img src="../img/modal-buy-now/chocolate2-mob-x1.jpg"
-                        srcset="../img/modal-buy-now/chocolate2-mob-x1.jpg 1x, ../img/modal-buy-now/chocolate2-mob-x1.jpg 2x"
+                    <img src="./img/modal-buy-now/chocolate2-mob-x1.jpg"
+                        srcset="./img/modal-buy-now/chocolate2-mob-x1.jpg 1x, ./img/modal-buy-now/chocolate2-mob-x1.jpg 2x"
                         alt="chocolate2" width="167" class="chocolate">
                     <div class="weight">
                         200 g
                     </div>
                 </li>
                 <li class="swiper-slide">
-                    <img src="../img/modal-buy-now/chocolate3-mob-x1.jpg" alt="chocolate3" width="167" class="chocolate"
-                    srcset="../img/modal-buy-now/chocolate3-mob-x1.jpg 1x, ../img/modal-buy-now/chocolate3-mob-x2.jpg 2x">
+                    <img src="./img/modal-buy-now/chocolate3-mob-x1.jpg" alt="chocolate3" width="167" class="chocolate"
+                    srcset="./img/modal-buy-now/chocolate3-mob-x1.jpg 1x, ./img/modal-buy-now/chocolate3-mob-x2.jpg 2x">
                     <div class="weight">
                         300 g
                     </div>
@@ -67,16 +92,21 @@
                 <li class="item-form">
                     <label for="user_phone"><span class="input-text">Phone number</span>
                         <span class="input-wrap">
-                            <input id="user_phone" type="tel" class="modal-input №phone" placeholder="Phone number" required>
-                            <svg width="24" height="18" class="modal-icon">
-                                <use href="../img/symbol-defs.svg#icon-flag_24x18"></use>
+                            <input id="user_phone" type="tel" class="modal-input №phone" placeholder="Phone number" required value="+380">
+                            <svg width="24" height="18" class="modal-icon-tel">
+                                <use href="./img/symbol-defs.svg#icon-flag_24x18"></use>
                             </svg>
                         </span>
                     </label>
                 </li>
                 <li class="item-form">
                     <label for="user_card"><span class="input-text">Card number</span>
-                        <input id="user_card" type="number"  class="modal-input №card " placeholder="Enter card" required value="+380">
+                       <span class="input-wrap">
+                            <input id="user_card" type="number" class="modal-input №card " placeholder="Enter card" required>
+                            <svg width="32" height="21" class="modal-icon-card">
+                                <use href="./img/symbol-defs.svg#icon-mastercard_30x19"></use>
+                            </svg>
+                       </span>
                     </label>
                 </li>
                 <li class="item-form">
@@ -86,6 +116,6 @@
                     </label>
                 </li>
             </ul>
-            <button type="submit" class="button-modal-buy">Submit</button>
+            <button type="submit" class="button-modal-buy" data-modal-close>Submit</button>
     </div>
 </div>
