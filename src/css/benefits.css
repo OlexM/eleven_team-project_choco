@@ -7,7 +7,7 @@
     max-width: 320px;
    padding: 20px 20px;
     margin: 0 auto;
-    background-color:#1E1823;
+  
 }
 
 .benefits-list {
@@ -30,7 +30,7 @@
   display: block;
   width: 62px;
   height: 62px;
-  margin-bottom: 22px;
+ 
   background-color:#1E1823;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -38,7 +38,7 @@
 }
 .benefits-title {
    
-  padding-bottom: 18px;
+ margin-top: 22px;
   font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -49,10 +49,16 @@ line-height: 1.22px;
 
 .benefits-text {
     font-weight: 400;
+    max-width: 308px;
+   margin-top: 18px;
     color: rgba(255, 255, 255, 0.7);
     
 }
 @media screen and (min-width: 375px) {
+  .benefits-section {
+    background-color:#1E1823;
+  
+}
   .benefits-container {
       max-width: 375px;
       margin-inline: auto; 
@@ -61,7 +67,7 @@ line-height: 1.22px;
 @media screen and (min-width: 768px) {
   .benefits-container {
       max-width: 768px;
-      /* margin-inline: auto; */
+     margin-inline: auto; 
      
   }
   .benefits-section {
@@ -82,7 +88,7 @@ line-height: 1.22px;
 }
 @media screen and (min-width: 1200px) {
   .benefits-section {
-      padding-top: 128px;
+      
      
   }
 
@@ -91,17 +97,16 @@ line-height: 1.22px;
   }
   .benefits-list {
     flex-wrap:nowrap;
-  
-   
-    padding: 50px 50px;
-    gap: 70px;
+    max-width: 1200px;
+    gap: 88px;
   
   }
   .benefits-text {
-    font-weight: 400;
+    
     color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
-    width: 308px;
+   margin-top: 18px;
+    
+    align-content: center;
 }
   .benefits-box {
    
@@ -109,17 +114,17 @@ line-height: 1.22px;
   }
   .benefits-item {
     
-     
+    width: 308px;
    }
   
-  .benefits-box-box {
+  .benefits-item {
     
   display:flex ;
     
   }
  
-.benefits-box-box ::after {
-  content:"" ;
+.benefits-item ::after {
+  content:" " ;
   width: 124px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   transform: rotate(90deg); 
@@ -127,5 +132,6 @@ display:block ;
 margin-left: 290px;
   
 }
+
   
 }
