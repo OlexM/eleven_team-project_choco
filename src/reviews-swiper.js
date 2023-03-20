@@ -19,4 +19,23 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
+    autoHeight:true,
+    //кількість слайдів для показу
+    slidesPerView:1,
+    //відступ між слайдами
+    spaceBetween:16,
+    
+    speed:250,
+    breakpoints:{
+      375:{
+        slidesPerView:1,
+      },
+      480:{
+        slidesPerView:2,
+      },
+      992:{
+        slidesPerView:3,
+        spaceBetween:28,
+      }
+    }
   });

@@ -1,6 +1,7 @@
 .reviews {
     background:#FAFAFA;
  padding-bottom: 72px;
+ padding-top: 72px;
 
 }
 .reviews-title{
@@ -23,11 +24,12 @@ margin-bottom: 24px;
 }
 
 .swiper {
-    
+    width: 100%;
 
 }
 .reviews-swiper {
-  
+  width: 100%;
+  height: auto;
 }
 
 
@@ -47,11 +49,12 @@ padding-bottom: 42px;
 
     position: absolute;
     top:-50px;
-    left: 35%;
+    left: 40%;
     border-radius: 50%;
     
 }
 .reviews-coment {
+    width: 100%;
 }
 .reviews-caption {
     font-family: 'Montserrat';
@@ -81,26 +84,34 @@ letter-spacing: -0.02em;
 
 color: rgba(17, 17, 17, 0.7);
 
+
 }
-.swiper-pagination {
-    padding-top: 20px;
+.reviews-swiper .swiper-pagination {
+    position: relative;
+    margin-top: 20px;
+        padding-top: 20px;
     width: 106px;
-}
-.swiper-pagination-bullet-active{
-    width: 28px;
-    height: 13px;
-    background-color: #FD9222;
+    background: transparent;
+    
+   
 
+    
 }
-swiper-pagination-bullet{
+
+.reviews-swiper .swiper-pagination-bullet{
 /* Ellipse 4 */
-
 width: 13px;
 height: 13px;
-
 background: rgba(17, 17, 17, 0.1);
 }
 
+.reviews-swiper .swiper-pagination-bullet-active{
+    width: 28px;
+    height: 13px;
+    border-radius: 10px;
+    background-color: #FD9222;
+
+}
 .leave-review-open-btn {
     display: block;
     margin-top: 32px;
@@ -118,6 +129,7 @@ height: 41px;
 
 border: 1px solid #FD9222;
 border-radius: 100px;
+transition: background 250ms linear, color 250ms linear,border 250ms linear; 
 
 }
 reviews-text-btn{
@@ -131,4 +143,29 @@ reviews-text-btn{
     text-align: center;
     
     color: #111111;
+}
+.leave-review-open-btn:hover,
+.leave-review-open-btn-btn:focus {
+    background: rgba(253, 146, 34, 1);
+    color:#FFFFFF;
+    transition:background 250ms linear, color 250ms linear, border 250ms linear;
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 3.0);
+}
+/******************************************************************************
+********************Mobile******************************************************
+*******************************************************************************/
+@media screen and (min-width: 375px)  {
+
+}
+/******************************************************************************
+********************Tablet******************************************************
+*******************************************************************************/
+@media screen and (min-width: 768px)  {
+    
+}
+/******************************************************************************
+********************Desktop******************************************************
+*******************************************************************************/
+@media screen and (min-width: 1200px)  {
+    
 }
