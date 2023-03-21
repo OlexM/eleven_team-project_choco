@@ -56,31 +56,26 @@
   padding-right: 18px;
 }
 .reviews-caption {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   /* identical to box height, or 133% */
 
   text-align: center;
 
-  color: #111111;
+  color: var(--text-color-light);
   margin-bottom: 24px;
 }
 .reviews-text {
   width: 100%;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+
+  line-height: 1.28;
   /* or 129% */
 
   text-align: center;
   letter-spacing: -0.02em;
 
-  color: rgba(17, 17, 17, 0.7);
+  color: var(--secondary-text-color-light);
 }
 .reviews-swiper .swiper-pagination {
   position: relative;
