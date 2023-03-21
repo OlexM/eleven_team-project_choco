@@ -7,6 +7,7 @@
 
   refs.openFeedbackBtn.addEventListener("click", toggleFeedback);
   refs.closeFeedbackBtn.addEventListener("click", toggleFeedback);
+  refs.feedback.addEventListener("submit", toggleFeedback);
 
   function toggleFeedback() {
     refs.feedback.classList.toggle("is-hidden");
