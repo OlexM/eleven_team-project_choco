@@ -12,7 +12,7 @@
 
 .products-title{
     text-align: center;
-   padding-top: 72px;
+  
 }
 
 .products-title-color{
@@ -51,12 +51,24 @@ margin-top: 2px;
 
 .products-btn{
     margin-top: 18px;
+    margin-bottom: 32px;
     padding: 8px 20px;
     border: 1px solid rgba(17, 17, 17, 0.1);
 border-radius: 100px;
 }
 
+
+
+.swiper-pagination-bullets,
+.swiper-pagination-horizontal{
+    position: relative;
+    margin-top: 30px;
+margin-left: 80px;
+
+}
+
 .swiper-pagination-bullet{
+ 
     width: 13px !important;
     height: 13px !important;
     transition: 0.15s;
@@ -86,10 +98,19 @@ border-radius: 100px;
         max-width: 768px;
     }
 
-    
+    .section-products{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+    }
 
-    .products-list{
-        }
+    .swiper-pagination-bullets,
+.swiper-pagination-horizontal{
+    position: relative;
+    margin-top: 30px;
+margin-left: 310px;
+}
+
 
         .products-item{    
             max-width: 334px;     
@@ -102,8 +123,17 @@ border-radius: 100px;
        max-width: 1200px;
     }
 
-    .products-swiper-cont{
-  
+    .section-products{
+        padding-top: 128px;
+        padding-bottom: 128px;
+        
+    }
+
+    .swiper-pagination-bullets,
+    .swiper-pagination-horizontal{
+        position: relative;
+        margin-top: 30px;
+    margin-left: 500px;
     }
 
     .products-list{

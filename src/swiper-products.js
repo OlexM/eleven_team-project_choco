@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.products-swiper-cont', {
     // Optional parameters
     
   
@@ -6,19 +6,17 @@ const swiper = new Swiper('.swiper', {
 
     // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
+      el: '.swiper-pagination1',
       clickable: true,
     },
   
     // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
+   
 
 autoHeight: true,
 
 slidesPerView: 4,
-
+spaceBetween:18,
 breakpoints: {
   // when window width is >= 320px
   320: {
@@ -32,7 +30,6 @@ breakpoints: {
   // when window width is >= 1200px
   1200: {
     slidesPerView: 4,
-    
   }
 }
 

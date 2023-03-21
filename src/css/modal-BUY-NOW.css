@@ -108,9 +108,15 @@
 }
 
 .swiper-slide-list {
+  border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+  width: 231px;
+  height: 257px;
   padding-top: 32px;
   padding-right: 32px;
   padding-left: 32px;
+  padding-bottom: 28px;
 }
 
 @media screen and (max-width: 768px) {
@@ -155,6 +161,10 @@
 .chocolate1 {
   margin-top: 32px;
   margin-left: 32px;
+}
+
+.chocolate{
+  margin: 0 auto;
 }
 
 .list-form {
@@ -308,12 +318,6 @@
 }
 
 .swiper-wrap-buy-n {
-  border-radius: 15px;
-  background-color: var(--bg-color-light);
-  border: 1px solid rgba(17, 17, 17, 0.1);
-
-  width: 231px;
-  height: 257px;
 }
 
 @media screen and (min-width: 768px) {
@@ -337,11 +341,10 @@
   padding: 0;
 }
 
-.swiper-pagination-bullet-active {
-  width: 28px;
-  height: 13px;
-  background-color: var(--button-bg-normal-light);
-  border-radius: 15px;
+
+.swiper-wrap-buy-n .swiper-pagination-bullets,
+.swiper-pagination-horizontal{
+margin-left: 95px;
 }
 
 /* .swiper-pagination-bullets {
