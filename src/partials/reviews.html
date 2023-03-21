@@ -2,18 +2,23 @@
   <h2 class="reviews-title">
     <span class="reviews-title-chocolate"> chocolate</span> is loved
   </h2>
-  <div class=" reviews-swiper swiper ">
+  <div class="reviews-swiper swiper">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper reviews-swiper-wrapper">
       <!-- Slides -->
       <div class="reviews-swiper-slide swiper-slide">
-        <img src="./img/reviews/viktoria1x.jpg"
+        <img
+          src="./img/reviews/viktoria1x.jpg"
           class="reviews-foto"
           width="80px"
           height="80px"
           alt="Victoria"
-          srcset= "./img/reviews/viktoria1x.jpg 1x, ./img/reviews/viktoria2x.jpg 2x">
-          <div class="reviews-coment">
+          srcset="
+            ./img/reviews/viktoria1x.jpg 1x,
+            ./img/reviews/viktoria2x.jpg 2x
+          "
+        />
+        <div class="reviews-coment">
           <h3 class="reviews-caption">Victoria Dobrzhanska</h3>
           <p class="reviews-text">
             I love this chocolate bar. Perfect combination of light crispy
@@ -113,12 +118,12 @@
       </div>
     </div>
     <!-- If we need pagination -->
-    <div class="swiper-pagination "></div>
+    <div class="swiper-pagination"></div>
   </div>
   <!---------Button---------->
 
-  <button type="button" class="leave-review-open-btn" data-menu-open>
-    <span class="reviews-text-btn"> Leave a review </span>
+  <button type="button" class="leave-review-open-btn">
+    <span class="reviews-text-btn" data-review-open> Leave a review </span>
   </button>
 
   <!-------Js------------->
