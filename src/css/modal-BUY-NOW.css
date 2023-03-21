@@ -42,10 +42,7 @@
   .modal-buy-now {
     width: 609px;
     min-height: 1058px;
-<<<<<<< Updated upstream
-=======
     padding: 31px;
->>>>>>> Stashed changes
   }
 }
 
@@ -316,17 +313,14 @@
 } 
 
 .swiper {
-<<<<<<< Updated upstream
   width: 160px;
     height: 196px;
     border-radius: 15px;
     background-color: #ffffff;
     border: 1px solid rgba(17, 17, 17, 0.1);
-  
     padding-top: 24px;
     padding-right: 20px;
     padding-left: 20px;
-=======
   display: flex;
   justify-content: center;
 
@@ -336,7 +330,6 @@
   border-radius: 15px;
   background-color: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
->>>>>>> Stashed changes
 }
 
 @media screen and (min-width: 768px) {
