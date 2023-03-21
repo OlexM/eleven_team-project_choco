@@ -137,6 +137,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .cooking {
+    padding-top: 100px;
+  }
   .cooking-title {
     width: 205px;
     font-size: 24px;
@@ -189,6 +192,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .cooking {
+    padding-top: 128px;
+  }
   .cooking-block {
     flex-direction: row;
     align-items: flex-end;
