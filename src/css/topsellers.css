@@ -2,7 +2,6 @@
   margin-bottom: 32px;
   text-align: center;
 
-  font-family: Montserrat;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -31,31 +30,20 @@
   flex-direction: column;
 }
 .topsellers-name-first {
-  color: #fd9222;
+  color: var(--orange);
 }
 .topsellers-text {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.28;
-
-  letter-spacing: -0.02em;
-
-  color: #111111;
 }
 .topsellers-button {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+
   line-height: 1.21;
 
-  color: #ffffff;
+  color: var(--button-font-normal-light);
   width: 120px;
   height: 41px;
 
-  background: #fd9222;
+  background: var(--button-bg-normal-light);
   border-radius: 100px;
   border-width: 0;
 }
