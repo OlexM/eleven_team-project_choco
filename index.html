@@ -27,8 +27,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-    <script type="module" crossorigin src="/eleven_team-project_choco/assets/index-3b15dcbb.js"></script>
-    <link rel="stylesheet" href="/eleven_team-project_choco/assets/index-cb4b6da3.css">
+    <script type="module" crossorigin src="/eleven_team-project_choco/assets/index-9d22bbb7.js"></script>
+    <link rel="stylesheet" href="/eleven_team-project_choco/assets/index-0d61c983.css">
   </head>
   <body>
     <!-- Loads the specified .html file -->
@@ -664,8 +664,7 @@ exceptional taste sensation.</p>
   <!-------Js------------->
 </section>
 
-      
-<section class="backdrop is-hidden" data-review>
+      <section class="backdrop is-hidden" data-review>
   <div class="modal-review">
     <h3 class="modal-review-title">
       LEAVE A REVIEW ABOUT
@@ -700,7 +699,12 @@ exceptional taste sensation.</p>
         class="modal-review-textarea"
         placeholder="Enter text"
       ></textarea>
-      <button type="submit" class="modal-review-button" data-feedback-open>
+      <button
+        type="button"
+        class="modal-review-button"
+        data-feedback-open
+        data-review-close
+      >
         Send
       </button>
     </form>
@@ -734,7 +738,7 @@ exceptional taste sensation.</p>
       
 <section class="backdrop js-menu-container menu-container is-hidden" data-modal data-modal2>
     <div class="modal-buy-now">
-        <button type="button" class="btn-close-open js-close-menu" data-modal-close data-modal2-close>
+        <button type="button" class="btn-close-open js-close-menu" data-modal-close>
       <svg width="24" height="24">
         <use href="/eleven_team-project_choco/assets/symbol-defs-be28a421.svg#icon-close"></use>
       </svg>
@@ -864,7 +868,7 @@ exceptional taste sensation.</p>
                     </label>
                 </li>
             </ul>
-            <button type="submit" class="button-modal-buy" data-modal-close data-modal2-close data-submit-open >Submit</button>
+            <button type="button" class="button-modal-buy" data-modal-close data-modal2-close data-submit-open >Submit</button>
     
           </section>
 
@@ -888,8 +892,8 @@ exceptional taste sensation.</p>
   </div>
 </section>
 
-      <section class="is-hidden">
-  <div class="modal-feedback center-div" data-feedback>
+      <section class="is-hidden" data-feedback>
+  <div class="modal-feedback center-div">
     <div class="div-btn">
       <button type="button" class="button-close-feedback" data-feedback-close>
         <svg class="svg-modal-close" width="22px" height="22px">
