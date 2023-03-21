@@ -27,7 +27,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-    <script type="module" crossorigin src="/eleven_team-project_choco/assets/index-594ea7c4.js"></script>
+    <script type="module" crossorigin src="/eleven_team-project_choco/assets/index-3b15dcbb.js"></script>
     <link rel="stylesheet" href="/eleven_team-project_choco/assets/index-9252e068.css">
   </head>
   <body>
@@ -728,7 +728,9 @@ exceptional taste sensation.</p>
         each piece is a work of art that is sure to please.
       </p>
 
-      <button class="subscribe-btn" type="button">Subscribe</button>
+      <button class="subscribe-btn" type="button" data-explore-open>
+        Subscribe
+      </button>
     </div>
   </div>
 </section>
@@ -909,54 +911,40 @@ exceptional taste sensation.</p>
   </div>
 </section>
 
-      <section>
-  <div class="main-modal-chocolate">
-    <!------------------>
-    <div class="div-new-chocolate-btn">
-      <button class="btn-new-chocolate" type="button">
-        <svg class="svg-new-chocolate">
-          <use href="./src/img/symbol-defs.svg#icon-chocolate_21x21"></use>
+
+      <section class="is-hidden" data-explore>
+  <div class="nev-chocolate-main">
+    <div class="div-only-btn">
+      <button type="button" class="new-chocolate-btn-close" data-explore-close>
+        <svg class="div-chocolate-btn-close" width="28px" height="28px">
+          <use href="/eleven_team-project_choco/assets/symbol-defs-be28a421.svg#icon-x_22x22"></use>
         </svg>
       </button>
     </div>
-    <!------------------>
-    <div class="">
-      <p class="peregraph-new-chocolate">
-        Explore our
-        <span>new chocolate</span>
-        first!
+    <div class="new-chocolte-text">
+      <p class="new-chocolate-paragraph">
+        Explore our<br />
+        <span class="new-chocolate-span-paragraph">new chocolate </span>first!
       </p>
-      <form class="form-new-chocolate">
-        <input class="input-mew-chocolate" />
-      </form>
-      <button class="btn-input-new-chocolate" type="submit">Submit</button>
+      <div class="div-form-new-chocolate">
+        <form class="new-chocolate-form">
+          <input
+            type="email"
+            class="new-chocolate-input"
+            placeholder="Enter your email"
+          /><button
+            type="button"
+            class="new-chocolate-btn-submit"
+            data-explore-close
+          >
+            Submit
+          </button>
+        </form>
+      </div>
     </div>
-    <!------------------>
   </div>
 </section>
 
-      <section>
-    <div class="nev-chocolate-main is-hidden">
-        <div class="div-only-btn">
-        <button type="button" class="new-chocolate-btn-close">
-            <svg class="div-chocolate-btn-close" width="28px" height="28px">
-                <use href="../img/symbol-defs.svg#icon-x_22x22"></use>
-            </svg>
-        </button>
-        </div>
-    <div class="new-chocolte-text">
-        <p class="new-chocolate-paragraph">Explore our<br/>
-            <span class="new-chocolate-span-paragraph">new chocolate </span>first!
-        </p>
-        <div class="div-form-new-chocolate">
-        <form class="new-chocolate-form">
-            <input class="new-chocolate-input"
-            placeholder="Enter your email"><button type="submit" class="new-chocolate-btn-submit">Submit</button>
-        </form>
-        </div>
-    </div>
-</div>
-</section>
     </main>
     <footer>
       <section class="section footer" id="footer">
@@ -1038,6 +1026,7 @@ exceptional taste sensation.</p>
     
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
     
     
     
