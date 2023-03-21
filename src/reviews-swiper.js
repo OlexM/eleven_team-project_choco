@@ -1,7 +1,6 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.reviews-swiper', {
     // Optional parameters
-    direction: 'horizontal',
-    loop: true,
+   
   
     // If we need pagination
     pagination: {
@@ -10,15 +9,10 @@ const swiper = new Swiper('.swiper', {
     },
   
     // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+  
   
     // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
+  
     autoHeight:true,
     //кількість слайдів для показу
     slidesPerView:1,
