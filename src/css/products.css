@@ -1,148 +1,136 @@
 .no-scroll {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-.section-products{
-    padding-top: 128px;
+.section-products {
+  padding-top: 72px;
 }
 
-.products-container{
-    margin: 0 auto;
+.products-container {
+  margin: 0 auto;
 }
 
-.products-title{
-    text-align: center;
-  
+.products-title {
+  text-align: center;
 }
 
-.products-title-color{
-color: #FD9222;
+.products-title-color {
+  color: var(--orange);
 }
 
-.products-list{
-margin-top: 32px;
-min-width: 0;
+.products-list {
+  margin-top: 32px;
+  min-width: 0;
 }
 
-.products-item{  
-    width: 100%; 
-    text-align: center;
-background-color: #fff;
+.products-item {
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg-color-light);
 }
 
 .products-item .swiper-button-prev::after,
-.products-item .swiper-button-next::after{
-    color: orange;
-    font-size: 80px;
+.products-item .swiper-button-next::after {
+  color: var(--button-font-active-light);
+  font-size: 80px;
 }
 
-.product-img{
-    margin: 0 auto;
-    min-width: 0;
+.product-img {
+  margin: 0 auto;
+  min-width: 0;
 }
 
-.products-choco-title{
-margin-top: 8px;
+.products-choco-title {
+  margin-top: 8px;
 }
 
-.products-choco-paragraf{
-margin-top: 2px;
+.products-choco-paragraf {
+  margin-top: 2px;
 }
 
-.products-btn{
-    margin-top: 18px;
-    margin-bottom: 32px;
-    padding: 8px 20px;
-    border: 1px solid rgba(17, 17, 17, 0.1);
-border-radius: 100px;
+.products-btn {
+  margin-top: 18px;
+  margin-bottom: 32px;
+  padding: 8px 20px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
 }
-
-
 
 .swiper-pagination-bullets,
-.swiper-pagination-horizontal{
-    position: relative;
-    margin-top: 30px;
-margin-left: 80px;
-
+.swiper-pagination-horizontal {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 80px;
 }
 
-.swiper-pagination-bullet{
- 
-    width: 13px !important;
-    height: 13px !important;
-    transition: 0.15s;
+.swiper-pagination-bullet {
+  width: 13px !important;
+  height: 13px !important;
+  transition: 0.15s;
 }
 
 .swiper-pagination-bullet-active {
-    color:#fff;
-    background: #FD9222 !important;
-    width: 28px !important;
-    border-radius: 18px !important;
+  color: var(--button-font-normal-light);
+  background: var(--orange) !important;
+  width: 28px !important;
+  border-radius: 18px !important;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767){
-    .products-container{
-        max-width: 334px;
-    }
+@media screen and (min-width: 320px) and (max-width: 767) {
+  .products-container {
+    max-width: 334px;
+  }
 
-    .products-item{
-        padding-left: 52px;
-    padding-right: 52px
-    }
-
+  .products-item {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
 }
 
-@media screen and (min-width: 768px){
-    .products-container{
-        max-width: 768px;
-    }
+@media screen and (min-width: 768px) {
+  .products-container {
+    max-width: 768px;
+  }
 
-    .section-products{
-        padding-top: 100px;
-        padding-bottom: 100px;
-        
-    }
+  .section-products {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-    .swiper-pagination-bullets,
-.swiper-pagination-horizontal{
+  .swiper-pagination-bullets,
+  .swiper-pagination-horizontal {
     position: relative;
     margin-top: 30px;
-margin-left: 310px;
+    margin-left: 310px;
+  }
+
+  .products-item {
+    max-width: 334px;
+  }
 }
 
+@media screen and (min-width: 1200px) {
+  .products-container {
+    max-width: 1200px;
+  }
 
-        .products-item{    
-            max-width: 334px;     
-        }
+  .section-products {
+    padding-top: 128px;
+    padding-bottom: 0;
+  }
 
-}
-
-@media screen and (min-width: 1200px){
-    .products-container{
-       max-width: 1200px;
-    }
-
-    .section-products{
-        padding-top: 128px;
-        padding-bottom: 128px;
-        
-    }
-
-    .swiper-pagination-bullets,
-    .swiper-pagination-horizontal{
-        position: relative;
-        margin-top: 30px;
+  .swiper-pagination-bullets,
+  .swiper-pagination-horizontal {
+    position: relative;
+    margin-top: 30px;
     margin-left: 500px;
-    }
+  }
 
-    .products-list{
+  .products-list {
+    margin-top: 32px;
+  }
 
-        margin-top: 32px;
-        }
-
-        .products-item{
-            max-width: 334px; 
-        }
-
+  .products-item {
+    max-width: 334px;
+  }
 }
