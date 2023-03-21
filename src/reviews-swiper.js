@@ -24,18 +24,18 @@ const swiper = new Swiper('.swiper', {
     slidesPerView:1,
     //відступ між слайдами
     spaceBetween:16,
-    
     speed:250,
+    
     breakpoints:{
       375:{
         slidesPerView:1,
       },
-      480:{
+      768:{
         slidesPerView:2,
       },
-      992:{
+      1200:{
         slidesPerView:3,
         spaceBetween:28,
-      }
-    }
+      },
+    },
   });

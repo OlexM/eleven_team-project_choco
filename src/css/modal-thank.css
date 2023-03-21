@@ -3,16 +3,19 @@
     visibility:hidden;
     pointer-events: none;
 }
+.thank{
+    z-index: 2;
+    transition: opacity 300ms linear, visibility 300ms linear 300ms;
+}
 
 .div-center-btn{
     padding-top:14px;
     padding-right: 14px;
 }
 .modal-thank{
+    z-index: 2;
     background-color: var(--orange);
     border-radius: 15px;
-    width:311px;
-    height:350px;
     background-image: url(../img/modal-thank/mobile/chocolate-mobile.png);
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -20,6 +23,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition: transform 0.5s linear;
 }
 .button-close-modal{
     display:block;
@@ -32,7 +36,7 @@
     border-radius: 50%;
     width: 28px;
     height: 28px;
-    background-color: #FCF1E0;
+    background-color: var(--pink);
 }
 .svg-modal-close{
 stroke: var(--orange);
@@ -42,10 +46,10 @@ stroke: var(--orange);
     margin-right: auto;
     flex-direction: column;
     padding-left:68px;
+    padding-right: 24px;
 }
 .modal-title{
-    font-family: 'Montserrat';
-    color: #FCF1E0;
+    color: var(--pink);
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -53,12 +57,7 @@ stroke: var(--orange);
     text-transform: uppercase;
 }
 .modal-paragraph{
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    max-width: 219px;
-    color: #FCF1E0;
+    color: var(--pink);
 }
 
 /*----------MEDIA--------*/
@@ -67,6 +66,9 @@ stroke: var(--orange);
     .modal-thank{
         max-width:311px;
         height: 350px;
+    }
+    .modal-paragraph{
+        width: 219px;
     }
 }
 /*--------------------*/
@@ -86,18 +88,18 @@ stroke: var(--orange);
     margin-bottom: 92px;
 }
 .modal-title{
-    font-weight: 600;
+font-weight: 600;
 font-size: 24px;
 line-height: 28px;
 }
 .modal-paragraph{
-    font-weight: 400;
 font-size: 18px;
 line-height: 24px;
-max-width: 309px;
+width: 309px;
 }
 .modal-text{
     padding-left:163px;
+    padding-right: 44px;
 }
 }
 /*-------------------*/
