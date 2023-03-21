@@ -12,7 +12,7 @@
   text-align: center;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  color: rgba(17, 17, 17, 1);
+  color: var(--text-color-light);
   margin-bottom: 24px;
 }
 .reviews-title-chocolate {
@@ -118,8 +118,6 @@
   transition: background 250ms linear, color 250ms linear, border 250ms linear;
 }
 .reviews-text-btn {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 1.2;
@@ -128,7 +126,7 @@
 }
 .leave-review-open-btn:hover,
 .leave-review-open-btn-btn:focus {
-  background: rgba(253, 146, 34, 1);
+  background: var(--button-bg-normal-light);
   color: var(--text-color-dark);
   transition: background 250ms linear, color 250ms linear, border 250ms linear;
   animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 3);

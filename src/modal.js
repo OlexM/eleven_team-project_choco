@@ -7,12 +7,14 @@
 
   refs.openModalBtn.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
+  refs.modal.addEventListener("submit", toggleModal);
 
   function toggleModal() {
     refs.modal.classList.toggle("is-hidden");
     document.body.classList.toggle('no-scrol')
   }
 })();
+
 
 /*
 var modal = document.getElementById('myModal');
