@@ -254,7 +254,7 @@
 @media screen and (min-width: 768px) {
     .hero-main-container{
         max-width: 768px;
-        padding: 0 32px 50px 32px;
+        padding: 0 32px 72px 32px;
     }
     .hero-container {
         width: 624px;
@@ -304,7 +304,7 @@
 @media screen and (min-width: 1200px) {
     .hero-main-container{
         max-width: 1200px;
-        padding: 0 32px 72px 32px;
+        padding: 0 32px 50px 32px;
     }   
     .hero-container {
         width: 1056px;
