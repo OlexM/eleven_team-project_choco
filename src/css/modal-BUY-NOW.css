@@ -67,7 +67,7 @@
   margin-bottom: 32px;
 }
 .acсent {
-  color: #fd9222;
+  color: var(--orange);
 }
 
 .list-chocolate-selection {
@@ -79,7 +79,7 @@
   width: 231px;
   height: 257px;
   border-radius: 15px;
-  background-color: #ffffff;
+  background-color: var(--bg-color-light);
   border: 1px solid rgba(17, 17, 17, 0.1);
 }
 
@@ -99,7 +99,7 @@
   width: 160px;
   height: 196px;
   border-radius: 15px;
-  background-color: #ffffff;
+  background-color: var(--bg-color-light);
   border: 1px solid rgba(17, 17, 17, 0.1);
 
   padding-top: 24px;
@@ -129,8 +129,8 @@
 }
 
 .chocolate-selection:is(:hover, :focus) {
-  background-color: #fcf1e0;
-  color: #fd9222;
+  background-color: var(--button-bg-active-ligh);
+  color: var(--orange);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -290,8 +290,8 @@
 .button-modal-buy {
   width: 109px;
   height: 41px;
-  background-color: #fd9222;
-  color: #ffffff;
+  background-color: var(--button-bg-normal-light);
+  color: var(--button-font-normal-light);
   border: none;
   border-radius: 100px;
   padding: 12px 28px;
@@ -302,14 +302,14 @@
 }
 
 .button-modal-buy:is(:hover, :focus) {
-  background-color: #fcf1e0;
-  color: #fd9222;
+  background-color: var(--button-bg-active-light);
+  color: var(--button-font-active-light);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .swiper-wrap-buy-n {
   border-radius: 15px;
-  background-color: #ffffff;
+  background-color: var(--bg-color-light);
   border: 1px solid rgba(17, 17, 17, 0.1);
 
   width: 231px;
@@ -340,7 +340,7 @@
 .swiper-pagination-bullet-active {
   width: 28px;
   height: 13px;
-  background-color: #fd9222;
+  background-color: var(--button-bg-normal-light);
   border-radius: 15px;
 }
 
