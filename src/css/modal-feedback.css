@@ -1,3 +1,8 @@
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
 .modal-feedback{
     position: fixed;
     top: 50%;
@@ -10,12 +15,9 @@
     background-image: url(../img/modal-feedback/chocolate-mobile.png);
     background-repeat: no-repeat;
     background-position: left bottom;
+    transition: opacity 300ms linear, visibility 300ms linear;
 }
-.is-hidden{
-    opacity:0;
-    visibility:hidden;
-    pointer-events: none;
-  }
+
 .div-btn{
     padding-top:14px;
     padding-right: 14px;
