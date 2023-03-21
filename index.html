@@ -27,8 +27,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-    <script type="module" crossorigin src="/eleven_team-project_choco/assets/index-2b0e0a88.js"></script>
-    <link rel="stylesheet" href="/eleven_team-project_choco/assets/index-351a1b44.css">
+    <script type="module" crossorigin src="/eleven_team-project_choco/assets/index-594ea7c4.js"></script>
+    <link rel="stylesheet" href="/eleven_team-project_choco/assets/index-8939ab54.css">
   </head>
   <body>
     <!-- Loads the specified .html file -->
@@ -668,7 +668,8 @@ exceptional taste sensation.</p>
   <!-------Js------------->
 </section>
 
-      <section class="backdrop is-hidden" data-review>
+      
+<section class="backdrop is-hidden" data-review>
   <div class="modal-review">
     <h3 class="modal-review-title">
       LEAVE A REVIEW ABOUT
@@ -703,7 +704,9 @@ exceptional taste sensation.</p>
         class="modal-review-textarea"
         placeholder="Enter text"
       ></textarea>
-      <button type="submit" class="modal-review-button">Send</button>
+      <button type="submit" class="modal-review-button" data-feedback-open>
+        Send
+      </button>
     </form>
     <button class="modal-btn" data-review-close>
       <svg class="modal-icon" width="23" height="23">
@@ -713,26 +716,23 @@ exceptional taste sensation.</p>
   </div>
 </section>
 
-      
-<section class="subscribe-main-container">
+      <section class="subscribe-main-container">
+  <div class="subscribe">
+    <div class="subscribe-container">
+      <h1 class="subscribe-title">EXPLORE OUR NEW CHOCOLATE FIRST</h1>
 
-    <div class="subscribe">
-        <div class="subscribe-container">
-            
-            <h1 class="subscribe-title">EXPLORE OUR NEW CHOCOLATE FIRST</h1>
-            
-            <p class="subscribe-par">From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence
-                that will leave you craving more. Made with only the finest ingredients and handcrafted with the utmost care, each 
-                piece is a work of art that is sure to please.
-            </p>
+      <p class="subscribe-par">
+        From the velvety texture to the rich and complex flavor, our New
+        Chocolate is a true indulgence that will leave you craving more. Made
+        with only the finest ingredients and handcrafted with the utmost care,
+        each piece is a work of art that is sure to please.
+      </p>
 
-            <button class="subscribe-btn" type="button" data-modal-open>
-                Subscribe
-            </button>
-        </div>
+      <button class="subscribe-btn" type="button">Subscribe</button>
     </div>
+  </div>
 </section>
-    
+
       
 <section class="backdrop js-menu-container menu-container is-hidden" data-modal data-modal2>
     <div class="modal-buy-now">
@@ -890,21 +890,25 @@ exceptional taste sensation.</p>
   </div>
 </section>
 
-      <section>
-    <div class="modal-feedback center-div is-hidden">
-       <div class="div-btn">
-        <button type="button" class="button-close-feedback">
-            <svg class="svg-modal-close" width="22px" height="22px">
-                <use href="/eleven_team-project_choco/assets/symbol-defs-be28a421.svg#icon-x_22x22"></use>
-            </svg>
-        </button>
-        </div>
+      <section class="is-hidden">
+  <div class="modal-feedback center-div" data-feedback>
+    <div class="div-btn">
+      <button type="button" class="button-close-feedback" data-feedback-close>
+        <svg class="svg-modal-close" width="22px" height="22px">
+          <use href="/eleven_team-project_choco/assets/symbol-defs-be28a421.svg#icon-x_22x22"></use>
+        </svg>
+      </button>
+    </div>
     <div class="feedback-text">
-    <h2 class="feedback-title">thank you<br> for your feedback!</h2>
-    <p class="feedback-paragraph">We are so happy to hear from you!</p>
-</div>
-</div>
+      <h2 class="feedback-title">
+        thank you<br />
+        for your feedback!
+      </h2>
+      <p class="feedback-paragraph">We are so happy to hear from you!</p>
+    </div>
+  </div>
 </section>
+
       <section>
   <div class="main-modal-chocolate">
     <!------------------>
@@ -1012,6 +1016,7 @@ exceptional taste sensation.</p>
     
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
     
     
     
