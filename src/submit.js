@@ -7,6 +7,7 @@
 
   refs.openSubmitBtn.addEventListener("click", toggleSubmit);
   refs.closeSubmitBtn.addEventListener("click", toggleSubmit);
+  refs.submit.addEventListener("submit", toggleSubmit);
 
   function toggleSubmit() {
     refs.submit.classList.toggle("is-hidden");

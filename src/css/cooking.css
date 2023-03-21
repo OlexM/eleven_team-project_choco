@@ -3,7 +3,7 @@
 .cooking {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 72px;
+  padding-top: 72px;
 }
 
 .cooking-container {
@@ -137,6 +137,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .cooking {
+    padding-top: 100px;
+  }
   .cooking-title {
     width: 205px;
     font-size: 24px;
@@ -189,6 +192,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .cooking {
+    padding-top: 128px;
+  }
   .cooking-block {
     flex-direction: row;
     align-items: flex-end;
@@ -226,7 +232,7 @@
     margin-bottom: 94px;
   }
   .cooking {
-    margin-top: 128px;
+    padding-top: 128px;
   }
 
   @media (min-device-pixel-ratio: 2),
