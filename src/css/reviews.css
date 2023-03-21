@@ -124,12 +124,12 @@
   font-size: 14px;
   line-height: 1.2;
   text-align: center;
-  color: #111111;
+  color: var(--black);
 }
 .leave-review-open-btn:hover,
 .leave-review-open-btn-btn:focus {
   background: rgba(253, 146, 34, 1);
-  color: #ffffff;
+  color: var(--text-color-dark);
   transition: background 250ms linear, color 250ms linear, border 250ms linear;
   animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 3);
 }
@@ -148,15 +148,11 @@
     padding-right: 16px;
   }
   .reviews-title {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 1.17;
   }
   .reviews-text-btn {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.2;
@@ -164,6 +160,10 @@
   }
   .leave-review-open-btn {
     width: 198px;
+  }
+  .reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 /******************************************************************************
