@@ -102,7 +102,7 @@ padding-right:9px;
 }
 .new-chocolte-text{
 margin-top: 184px;
-padding-left:20px;
+padding-left:44px;
 }
 .new-chocolate-input{
     width: 313px;
@@ -115,6 +115,16 @@ height: 52px;
 padding: 0;
 padding: 16px 42px;
 right: 40px;
+}
+.new-chocolate-paragraph{
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+}
+.new-chocolate-btn-submit{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
 }
 }
 
