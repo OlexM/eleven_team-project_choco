@@ -344,7 +344,10 @@
 
 .swiper-wrap-buy-n .swiper-pagination-bullets,
 .swiper-pagination-horizontal{
-margin-left: 95px;
+  position: relative;
+  width: 80px !important;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 /* .swiper-pagination-bullets {
