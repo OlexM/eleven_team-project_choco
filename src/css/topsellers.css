@@ -71,7 +71,7 @@
     width: 306px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .topsellers-section {
     position: relative;
   }
@@ -79,6 +79,9 @@
     position: absolute;
     top: 674px;
     left: 484px;
+  }
+  .topsellers-list {
+    max-width: 704px;
   }
   .topsellers-button {
     width: 162px;
