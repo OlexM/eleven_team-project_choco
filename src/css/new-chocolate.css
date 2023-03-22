@@ -1,133 +1,132 @@
-.nev-chocolate-main{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width:311px;
-    height: 350px;
-    border-radius: 15px;
-    background-image: url(../img/new-chocolate/new-chocolate-mobile.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-color: var(--white);
+.nev-chocolate-main {
+  z-index: 10;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 311px;
+  height: 350px;
+  border-radius: 15px;
+  background-image: url(../img/new-chocolate/new-chocolate-mobile.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--white);
 }
-.new-chocolate-div-close{
-   /* background-image: url(../img/new-chocolate/new-chocolate-mobile.jpg);
+.new-chocolate-div-close {
+  /* background-image: url(../img/new-chocolate/new-chocolate-mobile.jpg);
    height: 100%;
    background-repeat: no-repeat;
    background-size:contain;
    background-color: transparent; */
 }
-.div-only-btn{
-    padding-top: 14px;
-    padding-right:15px;
+.div-only-btn {
+  padding-top: 14px;
+  padding-right: 15px;
 }
-.new-chocolate-btn-close{
-    display: block;
-    margin-left: auto;
-    /* width: 28px;
+.new-chocolate-btn-close {
+  display: block;
+  margin-left: auto;
+  /* width: 28px;
     height: 28px; */
-    background-color: transparent;
-    border-color: transparent;
-    border-radius:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.new-chocolte-text{
-    margin-top: 162px;
-    padding-left: 24px;
+.new-chocolte-text {
+  margin-top: 162px;
+  padding-left: 24px;
 }
-.new-chocolate-paragraph{
-    font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-text-transform: uppercase;
+.new-chocolate-paragraph {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
 }
-.new-chocolate-span-paragraph{
-    color: var(--orange);
+.new-chocolate-span-paragraph {
+  color: var(--orange);
 }
-.div-chocolate-btn-close{
-    stroke: var(--white);
+.div-chocolate-btn-close {
+  stroke: var(--white);
 }
-.new-chocolate-input{
-    border-radius: 15px;
-    width: 263px;
-    height: 45px;
-    margin-top: 26px;
-    border-radius: 100px;
-    padding-left:18px;
-    padding-right: 100px;
-    border-color: rgba(64, 64, 64, 0.3);
-    /* border: 1px solid #fafafa; */
+.new-chocolate-input {
+  border-radius: 15px;
+  width: 263px;
+  height: 45px;
+  margin-top: 26px;
+  border-radius: 100px;
+  padding-left: 18px;
+  padding-right: 100px;
+  border-color: rgba(64, 64, 64, 0.3);
+  /* border: 1px solid #fafafa; */
 }
-.new-chocolate-btn-submit{
-    color: var(--white);
-    background-color: var(--orange);
-    border-color: transparent;
-    padding: 14px 28px;
-    max-width: 100px;
-    height: 46px;
-    border-radius:100px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 23px;
-    top:0px;
-    transform: translateY(50%);
+.new-chocolate-btn-submit {
+  color: var(--white);
+  background-color: var(--orange);
+  border-color: transparent;
+  padding: 14px 28px;
+  max-width: 100px;
+  height: 46px;
+  border-radius: 100px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 23px;
+  top: 0px;
+  transform: translateY(50%);
 }
-.new-chocolate-input::placeholder{
-    color: rgba(64, 64, 64, 0.3);
-    /* padding-left: 18px; */
+.new-chocolate-input::placeholder {
+  color: rgba(64, 64, 64, 0.3);
+  /* padding-left: 18px; */
 }
-.div-form-new-chocolate{
-    position: relative;
+.div-form-new-chocolate {
+  position: relative;
 }
 /*------------------------------------*/
 @media screen and (max-width: 767px) {
-
 }
 
 @media screen and (min-width: 768px) {
-.nev-chocolate-main{
+  .nev-chocolate-main {
     width: 538px;
     height: 412px;
     background-image: url(../img/new-chocolate/new-chocolate-tublet.jpg);
-}
-.div-only-btn{
-padding-top:10px;
-padding-right:9px;
-}
-.new-chocolte-text{
-margin-top: 184px;
-padding-left:44px;
-}
-.new-chocolate-input{
+  }
+  .div-only-btn {
+    padding-top: 10px;
+    padding-right: 9px;
+  }
+  .new-chocolte-text {
+    margin-top: 184px;
+    padding-left: 44px;
+  }
+  .new-chocolate-input {
     width: 313px;
     height: 52px;
-    padding-right:18px;
-}
-.new-chocolate-btn-submit{
-max-width: 137px;
-height: 52px;
-padding: 0;
-padding: 16px 42px;
-right: 40px;
-}
-.new-chocolate-paragraph{
-font-weight: 600;
-font-size: 24px;
-line-height: 28px;
-}
-.new-chocolate-btn-submit{
+    padding-right: 18px;
+  }
+  .new-chocolate-btn-submit {
+    max-width: 137px;
+    height: 52px;
+    padding: 0;
+    padding: 16px 42px;
+    right: 40px;
+  }
+  .new-chocolate-paragraph {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .new-chocolate-btn-submit {
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-}
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
 }
