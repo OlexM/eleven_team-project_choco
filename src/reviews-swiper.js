@@ -21,7 +21,7 @@ const swiper = new Swiper('.reviews-swiper', {
     speed:250,
     
     breakpoints:{
-      375:{
+      320:{
         slidesPerView:1,
       },
       768:{
