@@ -8,3 +8,5 @@ import './js/reviews-swiper'
 import './js/submit'
 import './js/swiper'
 import './js/swiper-products'
+import './js/modal'
+
