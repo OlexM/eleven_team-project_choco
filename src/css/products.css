@@ -4,7 +4,6 @@
 
 .section-products {
     padding-top: 72px;
-    padding-bottom: 72px;
 }
 
 .products-container {
@@ -26,6 +25,7 @@
 }
 
 .products-item {
+ 
     width: 100%;
     text-align: center;
     background-color: var(--bg-color-light);
@@ -39,6 +39,7 @@
 
 .product-img {
     margin: 0 auto;
+    margin-top: 32px;
     min-width: 0;
 }
 
@@ -101,8 +102,6 @@
 
     .section-products {
         padding-top: 100px;
-        padding-bottom: 100px;
-
     }
 
     .swiper-pagination-bullets,
@@ -127,8 +126,6 @@
 
     .section-products {
         padding-top: 128px;
-        padding-bottom: 128px;
-
     }
 
     .swiper-pagination-bullets,
@@ -147,5 +144,7 @@
     .products-item {
         max-width: 334px;
     }
+
+    
 
 }
