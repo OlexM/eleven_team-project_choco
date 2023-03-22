@@ -86,6 +86,8 @@
   .topsellers-button {
     width: 162px;
     height: 50px;
+    position: absolute;
+    left: 82px;
   }
 }
 @media screen and (min-width: 1200px) {
